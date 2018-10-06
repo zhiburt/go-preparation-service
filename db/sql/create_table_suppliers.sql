@@ -5,7 +5,7 @@ CREATE TABLE suppliers
     company TEXT NOT NULL,
     address TEXT NOT NULL,
     geolocation TEXT NOT NULL,
-    description TEXT,--text best 
+    description TEXT--text best 
 );  
 
 --IMG ADD SUPPORT URL

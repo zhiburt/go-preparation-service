@@ -4,12 +4,15 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
+	"io/ioutil"
 	"log"
+	"math/rand"
 	"os"
 	"strconv"
 	"strings"
+	"time"
 
-	_ "../db"
+	"../db"
 
 	"github.com/PuerkitoBio/goquery"
 )
@@ -223,4 +226,88 @@ func GetDataTwo() (string, error) {
 	})
 
 	return buf.String(), nil
+}
+
+//support db fill
+func getRandomFromSliceStr(sl []string, s *rand.Source) string {
+	rand := rand.New(*s)
+
+	return sl[rand.Intn(len(sl)-1)]
+}
+
+func getMedicalPreparatTypes() []string {
+	var medicals []string
+	f, err := os.Open("./initData/medical_types.txt")
+	if err != nil {
+		panic(fmt.Errorf("getTypes error: %v", err))
+	}
+	scaner := bufio.NewScanner(f)
+	scaner.Split(bufio.ScanLines)
+	for scaner.Scan() {
+		medicals = append(medicals, scaner.Text())
+	}
+
+	return medicals
+}
+
+func getMedicalPreparatImage() []string {
+	var medicals []string
+	f, err := os.Open("./initData/medical_images.txt")
+	if err != nil {
+		panic(fmt.Errorf("getTypes error: %v", err))
+	}
+	scaner := bufio.NewScanner(f)
+	scaner.Split(bufio.ScanLines)
+	for scaner.Scan() {
+		medicals = append(medicals, scaner.Text())
+	}
+
+	return medicals
+}
+
+const MEDICAL_SEPARATOR = "|"
+
+func getMedicalPreparatDescription() []string {
+	f, err := os.Open("./initData/medical_description.txt")
+	if err != nil {
+		panic(fmt.Errorf("getTypes error: %v", err))
+	}
+
+	b, err := ioutil.ReadAll(f)
+	if err != nil {
+		panic(fmt.Errorf("getMedicalPreparatDescription error: %v", err))
+	}
+	descs := strings.SplitN(string(b), MEDICAL_SEPARATOR, -1)
+	descs = append(descs, "")
+	descs = append(descs, "")
+	descs = append(descs, "")
+
+	return descs
+}
+
+//init DB-preparations entrys
+func init() {
+	// GetDataFromResources()
+	//if table db.Preparations is empty
+	if db.GetAllPreparations() == nil {
+		GetDataFromResources()
+		preps := GetPreparationsFromInit()
+		//rand type
+		rand := rand.NewSource(time.Now().Unix())
+		for _, el := range preps {
+			b, err := db.InsertIntoPreparations(&db.Preparation{
+				Name:             el.Name,
+				Description:      getRandomFromSliceStr(getMedicalPreparatDescription(), &rand),
+				ActiveIngredient: el.ActiveIngredient,
+				Type:             getRandomFromSliceStr(getMedicalPreparatTypes(), &rand),
+				ImageURL:         getRandomFromSliceStr(getMedicalPreparatImage(), &rand),
+			})
+			if err != nil {
+				panic(err)
+			}
+			if !b {
+				fmt.Println("EXISTS ", el.Name)
+			}
+		}
+	}
 }

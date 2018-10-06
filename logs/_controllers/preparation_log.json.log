@@ -1,0 +1,1228 @@
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:07:54+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:07:55+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:08:13+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:10:54+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:11:04+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:13:10+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:15:35+03:00"}
+{"level":"error","msg":"asd","time":"2018-10-05T15:15:50+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:17:56+03:00"}
+{"level":"error","msg":"asd","time":"2018-10-05T15:18:08+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:19:33+03:00"}
+{"level":"error","msg":"asd","time":"2018-10-05T15:19:45+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:21:17+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:24:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:24:40+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:25:13+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:25:19+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:25:23+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:25:25+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:25:26+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:25:29+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:30:17+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:30:19+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амброгексал into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амброксол into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амиксин into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лавомакс into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Асприн-кардио into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кардиаск into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Белосалик 30г into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Акридерм СК 30г into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бепантен into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Декспантенол into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бетасерк into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бетавер into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вольтарен into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Диклофенак into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Быструмгель into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кетопрофен into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гастрозол into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Омепразол into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Детралекс into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Венарус into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дипросалик into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Акридерм СК into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дифлюкан into","time":"2018-10-05T15:38:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Флуконазол into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Длянос into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Риностоп into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зантак into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ранитидин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зиртек into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Цетиринакс into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зовиракс into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ацикловир into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Иммунал into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эхинацеи экстракт into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Имодиум into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лоперамид into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Инфлюцид into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Афлубин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Йодомарин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Калия йодид into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кавинтон into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Винпоцетин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кагоцел into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Римантадин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Капотен into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Каптоприл into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кларитин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лоратадин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Клацид into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кларитромицин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Крестор into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Розувастатин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лазолван into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ламизил into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тербинафин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лиотон-1000 into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гепарин-акригель 1000 into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ломилан into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лосек мапс into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Магне-В6 into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert МагнелисВ6 into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мезим into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Панкреатин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Максидекс into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дексаметазон into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мидриацил into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тропикамид into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мирамистин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Хлоргексидин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мовалис into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мелоксикам into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нейромультивит into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пентовит into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нормодипин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амлодипин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Но-шпа into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дротаверина гидрохлорид into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нурофен into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ибупрофен into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Омез into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Отривин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Панадол into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Парацетамол into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Панангин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Аспаркам into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пантогам into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пантокальцин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Перинева into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Периндоприл into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пиносол into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эвкасепт into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Плавикс into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зилт into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Розарт into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Розувастатин (сев.звезда) into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Санорин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нафтизин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Сумамед into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Азитромицин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тебантин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Габапентин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Трентал into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пентоксифиллин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Трихопол into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Метронидазол into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксевазин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксерутин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Уьтоп into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фастум-гель into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Финлепсин into","time":"2018-10-05T15:38:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Карбамазепин into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Флюкостат into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фурамаг into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фурагин into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Энап into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эналаприл into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эргоферон  into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Анаферон into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эрсефурил into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фуразолидон into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert 5-НОК into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нитроксолин into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Адалат Осмо into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нифедипин into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Адвантан мазь (15г) into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Комфодерм (15г) into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Азитрокс into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Азимамед into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Редерм into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Аллегра (180мг) into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фексадин, Фексофаст into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амбробене into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амловас into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амлотоп into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Арифон into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Индапамид into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Аспирин Экспресс into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ацетилсалициловая кислота into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Аспирин-кардио into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Белосалик (30г) into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Редерм (30г) into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бепантол into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бетагистин into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Быструм гель into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Беталок Зок into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Метопролол into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вентолин into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Сальбутамол into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вертран into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вестибо into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Виагра into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Силденафил into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Викс актив into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Виролекс into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вольтарен Эмульгель into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гебагамма into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гептрал into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гептор into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гипотиазид into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гидрохлоротиазид into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Д-Пантенол into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Девирс into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Рибавирин into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дезал into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дезлоратадин into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Депренорм МВ into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Триметазидин into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Диклак into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Длянос капли into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Риностоп капли into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Клопидогрел into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Цетиризин into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зитролид into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зовиракс (таб.) into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ацикловир (таб.) into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зовиракс (крем) into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ацикловир (мазь) into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зодак into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зодак экспресс into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Левоцетиризин into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Изоптин into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Верапамил into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Индап into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кандид into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Клотримазол into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кардилопин into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ибуклин into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ибупрофен + Парацетамол into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кетонал мазь into","time":"2018-10-05T15:38:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кларисенс into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кордипин into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кордафлекс into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ксеникал into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Орсотен into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ксеналтен into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ксизал into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ламизил крем into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тербинафин крем/мазь into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ламизил таблетки into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тербинафин таблетки into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Латикорт into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гидрокортизон into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лепонекс into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Азалептин into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лиотон 1000 into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гепарин-акри гель 1000 into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Листаб into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Локоид into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лордестин into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лоцерил into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Офломил into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мертенил into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мирамистин (50мл) into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микозорал таб. into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кетоконазол таб. into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микосист into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нейронтин into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Некст into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Низорал крем/мазь into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микозорал крем/мазь into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Низорал шампунь into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микозорал шампунь into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Новиган into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ново-пассит into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Боярышник into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ноотропил into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пирацетам into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Норваск into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дротаверин into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Орунгал into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Итраконазол, Ирунин into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ринонорм спрей into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пантенол-Д into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дексапантенол into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гопантеновая кислота into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пара-плюс от вшей into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Чемеричная вода into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Предуктал МВ into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Равел into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Риностоп спрей into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Снуп into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Супрастинекс into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert ТераФлю into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Максиколд into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тиберал into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Орнидазол into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тридерм into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Акридерм ГК into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксевазин гель into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксерутин гель into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксевазин таб. into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксерутин таб. into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ультоп into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Урсосан into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Урдокса into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Урсофальк into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фенотропил into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фестал into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фервекс into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Флемоксин Солютаб into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амоксициллин into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Флуцинар into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Синафлан into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фунготербин into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Халиксол, Хеликсол into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Хемомицин into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Цетрин into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эгилок into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Экзодерил into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микодерил into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Элоком into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Момат into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эргоферон into","time":"2018-10-05T15:38:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эрексезил into","time":"2018-10-05T15:38:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эриус into","time":"2018-10-05T15:38:45+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:39:17+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T15:41:31+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амброгексал into","time":"2018-10-05T18:27:52+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амброксол into","time":"2018-10-05T18:27:52+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амиксин into","time":"2018-10-05T18:27:52+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лавомакс into","time":"2018-10-05T18:27:52+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Асприн-кардио into","time":"2018-10-05T18:27:52+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кардиаск into","time":"2018-10-05T18:27:52+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Белосалик 30г into","time":"2018-10-05T18:27:52+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Акридерм СК 30г into","time":"2018-10-05T18:27:52+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бепантен into","time":"2018-10-05T18:27:52+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Декспантенол into","time":"2018-10-05T18:27:52+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бетасерк into","time":"2018-10-05T18:27:52+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бетавер into","time":"2018-10-05T18:27:52+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вольтарен into","time":"2018-10-05T18:27:52+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Диклофенак into","time":"2018-10-05T18:27:52+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Быструмгель into","time":"2018-10-05T18:27:52+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кетопрофен into","time":"2018-10-05T18:27:52+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гастрозол into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Омепразол into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Детралекс into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Венарус into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дипросалик into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Акридерм СК into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дифлюкан into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Флуконазол into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Длянос into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Риностоп into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зантак into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ранитидин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зиртек into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Цетиринакс into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зовиракс into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ацикловир into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Иммунал into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эхинацеи экстракт into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Имодиум into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лоперамид into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Инфлюцид into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Афлубин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Йодомарин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Калия йодид into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кавинтон into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Винпоцетин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кагоцел into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Римантадин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Капотен into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Каптоприл into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кларитин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лоратадин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Клацид into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кларитромицин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Крестор into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Розувастатин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лазолван into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ламизил into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тербинафин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лиотон-1000 into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гепарин-акригель 1000 into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ломилан into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лосек мапс into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Магне-В6 into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert МагнелисВ6 into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мезим into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Панкреатин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Максидекс into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дексаметазон into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мидриацил into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тропикамид into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мирамистин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Хлоргексидин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мовалис into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мелоксикам into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нейромультивит into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пентовит into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нормодипин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амлодипин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Но-шпа into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дротаверина гидрохлорид into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нурофен into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ибупрофен into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Омез into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Отривин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Панадол into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Парацетамол into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Панангин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Аспаркам into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пантогам into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пантокальцин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Перинева into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Периндоприл into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пиносол into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эвкасепт into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Плавикс into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зилт into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Розарт into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Розувастатин (сев.звезда) into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Санорин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нафтизин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Сумамед into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Азитромицин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тебантин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Габапентин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Трентал into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пентоксифиллин into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Трихопол into","time":"2018-10-05T18:27:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Метронидазол into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксевазин into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксерутин into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Уьтоп into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фастум-гель into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Финлепсин into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Карбамазепин into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Флюкостат into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фурамаг into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фурагин into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Энап into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эналаприл into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эргоферон  into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Анаферон into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эрсефурил into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фуразолидон into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert 5-НОК into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нитроксолин into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Адалат Осмо into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нифедипин into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Адвантан мазь (15г) into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Комфодерм (15г) into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Азитрокс into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Азимамед into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Редерм into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Аллегра (180мг) into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фексадин, Фексофаст into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амбробене into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амловас into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амлотоп into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Арифон into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Индапамид into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Аспирин Экспресс into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ацетилсалициловая кислота into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Аспирин-кардио into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Белосалик (30г) into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Редерм (30г) into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бепантол into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бетагистин into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Быструм гель into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Беталок Зок into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Метопролол into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вентолин into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Сальбутамол into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вертран into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вестибо into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Виагра into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Силденафил into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Викс актив into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Виролекс into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вольтарен Эмульгель into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гебагамма into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гептрал into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гептор into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гипотиазид into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гидрохлоротиазид into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Д-Пантенол into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Девирс into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Рибавирин into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дезал into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дезлоратадин into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Депренорм МВ into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Триметазидин into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Диклак into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Длянос капли into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Риностоп капли into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Клопидогрел into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Цетиризин into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зитролид into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зовиракс (таб.) into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ацикловир (таб.) into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зовиракс (крем) into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ацикловир (мазь) into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зодак into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зодак экспресс into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Левоцетиризин into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Изоптин into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Верапамил into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Индап into","time":"2018-10-05T18:27:54+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кандид into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Клотримазол into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кардилопин into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ибуклин into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ибупрофен + Парацетамол into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кетонал мазь into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кларисенс into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кордипин into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кордафлекс into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ксеникал into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Орсотен into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ксеналтен into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ксизал into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ламизил крем into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тербинафин крем/мазь into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ламизил таблетки into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тербинафин таблетки into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Латикорт into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гидрокортизон into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лепонекс into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Азалептин into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лиотон 1000 into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гепарин-акри гель 1000 into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Листаб into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Локоид into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лордестин into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лоцерил into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Офломил into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мертенил into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мирамистин (50мл) into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микозорал таб. into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кетоконазол таб. into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микосист into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нейронтин into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Некст into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Низорал крем/мазь into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микозорал крем/мазь into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Низорал шампунь into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микозорал шампунь into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Новиган into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ново-пассит into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Боярышник into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ноотропил into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пирацетам into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Норваск into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дротаверин into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Орунгал into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Итраконазол, Ирунин into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ринонорм спрей into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пантенол-Д into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дексапантенол into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гопантеновая кислота into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пара-плюс от вшей into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Чемеричная вода into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Предуктал МВ into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Равел into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Риностоп спрей into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Снуп into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Супрастинекс into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert ТераФлю into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Максиколд into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тиберал into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Орнидазол into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тридерм into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Акридерм ГК into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксевазин гель into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксерутин гель into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксевазин таб. into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксерутин таб. into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ультоп into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Урсосан into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Урдокса into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Урсофальк into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фенотропил into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фестал into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фервекс into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Флемоксин Солютаб into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амоксициллин into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Флуцинар into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Синафлан into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фунготербин into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Халиксол, Хеликсол into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Хемомицин into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Цетрин into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эгилок into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Экзодерил into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микодерил into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Элоком into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Момат into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эргоферон into","time":"2018-10-05T18:27:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эрексезил into","time":"2018-10-05T18:27:56+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эриус into","time":"2018-10-05T18:27:56+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T19:30:42+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амброгексал into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амброксол into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амиксин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лавомакс into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Асприн-кардио into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кардиаск into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Белосалик 30г into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Акридерм СК 30г into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бепантен into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Декспантенол into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бетасерк into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бетавер into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вольтарен into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Диклофенак into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Быструмгель into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кетопрофен into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гастрозол into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Омепразол into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Детралекс into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Венарус into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дипросалик into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Акридерм СК into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дифлюкан into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Флуконазол into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Длянос into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Риностоп into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зантак into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ранитидин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зиртек into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Цетиринакс into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зовиракс into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ацикловир into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Иммунал into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эхинацеи экстракт into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Имодиум into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лоперамид into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Инфлюцид into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Афлубин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Йодомарин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Калия йодид into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кавинтон into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Винпоцетин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кагоцел into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Римантадин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Капотен into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Каптоприл into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кларитин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лоратадин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Клацид into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кларитромицин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Крестор into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Розувастатин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лазолван into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ламизил into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тербинафин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лиотон-1000 into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гепарин-акригель 1000 into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ломилан into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лосек мапс into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Магне-В6 into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert МагнелисВ6 into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мезим into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Панкреатин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Максидекс into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дексаметазон into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мидриацил into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тропикамид into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мирамистин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Хлоргексидин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мовалис into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мелоксикам into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нейромультивит into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пентовит into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нормодипин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амлодипин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Но-шпа into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дротаверина гидрохлорид into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нурофен into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ибупрофен into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Омез into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Отривин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Панадол into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Парацетамол into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Панангин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Аспаркам into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пантогам into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пантокальцин into","time":"2018-10-05T19:30:43+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Перинева into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Периндоприл into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пиносол into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эвкасепт into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Плавикс into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зилт into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Розарт into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Розувастатин (сев.звезда) into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Санорин into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нафтизин into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Сумамед into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Азитромицин into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тебантин into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Габапентин into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Трентал into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пентоксифиллин into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Трихопол into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Метронидазол into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксевазин into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксерутин into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Уьтоп into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фастум-гель into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Финлепсин into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Карбамазепин into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Флюкостат into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фурамаг into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фурагин into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Энап into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эналаприл into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эргоферон  into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Анаферон into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эрсефурил into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фуразолидон into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert 5-НОК into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нитроксолин into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Адалат Осмо into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нифедипин into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Адвантан мазь (15г) into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Комфодерм (15г) into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Азитрокс into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Азимамед into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Редерм into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Аллегра (180мг) into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фексадин, Фексофаст into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амбробене into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амловас into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амлотоп into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Арифон into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Индапамид into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Аспирин Экспресс into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ацетилсалициловая кислота into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Аспирин-кардио into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Белосалик (30г) into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Редерм (30г) into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бепантол into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бетагистин into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Быструм гель into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Беталок Зок into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Метопролол into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вентолин into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Сальбутамол into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вертран into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вестибо into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Виагра into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Силденафил into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Викс актив into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Виролекс into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вольтарен Эмульгель into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гебагамма into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гептрал into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гептор into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гипотиазид into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гидрохлоротиазид into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Д-Пантенол into","time":"2018-10-05T19:30:44+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Девирс into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Рибавирин into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дезал into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дезлоратадин into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Депренорм МВ into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Триметазидин into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Диклак into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Длянос капли into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Риностоп капли into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Клопидогрел into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Цетиризин into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зитролид into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зовиракс (таб.) into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ацикловир (таб.) into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зовиракс (крем) into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ацикловир (мазь) into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зодак into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зодак экспресс into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Левоцетиризин into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Изоптин into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Верапамил into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Индап into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кандид into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Клотримазол into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кардилопин into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ибуклин into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ибупрофен + Парацетамол into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кетонал мазь into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кларисенс into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кордипин into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кордафлекс into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ксеникал into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Орсотен into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ксеналтен into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ксизал into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ламизил крем into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тербинафин крем/мазь into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ламизил таблетки into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тербинафин таблетки into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Латикорт into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гидрокортизон into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лепонекс into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Азалептин into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лиотон 1000 into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гепарин-акри гель 1000 into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Листаб into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Локоид into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лордестин into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лоцерил into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Офломил into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мертенил into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мирамистин (50мл) into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микозорал таб. into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кетоконазол таб. into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микосист into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нейронтин into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Некст into","time":"2018-10-05T19:30:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Низорал крем/мазь into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микозорал крем/мазь into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Низорал шампунь into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микозорал шампунь into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Новиган into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ново-пассит into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Боярышник into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ноотропил into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пирацетам into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Норваск into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дротаверин into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Орунгал into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Итраконазол, Ирунин into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ринонорм спрей into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пантенол-Д into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дексапантенол into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гопантеновая кислота into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пара-плюс от вшей into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Чемеричная вода into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Предуктал МВ into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Равел into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Риностоп спрей into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Снуп into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Супрастинекс into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert ТераФлю into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Максиколд into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тиберал into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Орнидазол into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тридерм into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Акридерм ГК into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксевазин гель into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксерутин гель into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксевазин таб. into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксерутин таб. into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ультоп into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Урсосан into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Урдокса into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Урсофальк into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фенотропил into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фестал into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фервекс into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Флемоксин Солютаб into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амоксициллин into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Флуцинар into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Синафлан into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фунготербин into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Халиксол, Хеликсол into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Хемомицин into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Цетрин into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эгилок into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Экзодерил into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микодерил into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Элоком into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Момат into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эргоферон into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эрексезил into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эриус into","time":"2018-10-05T19:30:46+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T19:31:07+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T19:33:46+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T19:38:04+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T19:39:45+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амброгексал into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амброксол into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амиксин into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лавомакс into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Асприн-кардио into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кардиаск into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Белосалик 30г into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Акридерм СК 30г into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бепантен into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Декспантенол into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бетасерк into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бетавер into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вольтарен into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Диклофенак into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Быструмгель into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кетопрофен into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гастрозол into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Омепразол into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Детралекс into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Венарус into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дипросалик into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Акридерм СК into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дифлюкан into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Флуконазол into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Длянос into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Риностоп into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зантак into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ранитидин into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зиртек into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Цетиринакс into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зовиракс into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ацикловир into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Иммунал into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эхинацеи экстракт into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Имодиум into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лоперамид into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Инфлюцид into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Афлубин into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Йодомарин into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Калия йодид into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кавинтон into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Винпоцетин into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кагоцел into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Римантадин into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Капотен into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Каптоприл into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кларитин into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лоратадин into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Клацид into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кларитромицин into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Крестор into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Розувастатин into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лазолван into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ламизил into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тербинафин into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лиотон-1000 into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гепарин-акригель 1000 into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ломилан into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лосек мапс into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Магне-В6 into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert МагнелисВ6 into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мезим into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Панкреатин into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Максидекс into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дексаметазон into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мидриацил into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тропикамид into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мирамистин into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Хлоргексидин into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мовалис into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мелоксикам into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нейромультивит into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пентовит into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нормодипин into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амлодипин into","time":"2018-10-05T19:39:46+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Но-шпа into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дротаверина гидрохлорид into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нурофен into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ибупрофен into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Омез into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Отривин into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Панадол into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Парацетамол into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Панангин into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Аспаркам into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пантогам into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пантокальцин into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Перинева into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Периндоприл into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пиносол into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эвкасепт into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Плавикс into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зилт into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Розарт into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Розувастатин (сев.звезда) into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Санорин into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нафтизин into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Сумамед into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Азитромицин into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тебантин into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Габапентин into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Трентал into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пентоксифиллин into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Трихопол into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Метронидазол into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксевазин into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксерутин into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Уьтоп into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фастум-гель into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Финлепсин into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Карбамазепин into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Флюкостат into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фурамаг into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фурагин into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Энап into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эналаприл into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эргоферон  into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Анаферон into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эрсефурил into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фуразолидон into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert 5-НОК into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нитроксолин into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Адалат Осмо into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нифедипин into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Адвантан мазь (15г) into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Комфодерм (15г) into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Азитрокс into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Азимамед into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Редерм into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Аллегра (180мг) into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фексадин, Фексофаст into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амбробене into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амловас into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амлотоп into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Арифон into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Индапамид into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Аспирин Экспресс into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ацетилсалициловая кислота into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Аспирин-кардио into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Белосалик (30г) into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Редерм (30г) into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бепантол into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Бетагистин into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Быструм гель into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Беталок Зок into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Метопролол into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вентолин into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Сальбутамол into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вертран into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вестибо into","time":"2018-10-05T19:39:47+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Виагра into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Силденафил into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Викс актив into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Виролекс into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Вольтарен Эмульгель into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гебагамма into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гептрал into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гептор into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гипотиазид into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гидрохлоротиазид into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Д-Пантенол into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Девирс into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Рибавирин into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дезал into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дезлоратадин into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Депренорм МВ into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Триметазидин into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Диклак into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Длянос капли into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Риностоп капли into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Клопидогрел into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Цетиризин into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зитролид into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зовиракс (таб.) into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ацикловир (таб.) into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зовиракс (крем) into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ацикловир (мазь) into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зодак into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Зодак экспресс into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Левоцетиризин into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Изоптин into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Верапамил into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Индап into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кандид into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Клотримазол into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кардилопин into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ибуклин into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ибупрофен + Парацетамол into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кетонал мазь into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кларисенс into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кордипин into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кордафлекс into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ксеникал into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Орсотен into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ксеналтен into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ксизал into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ламизил крем into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тербинафин крем/мазь into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ламизил таблетки into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тербинафин таблетки into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Латикорт into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гидрокортизон into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лепонекс into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Азалептин into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лиотон 1000 into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гепарин-акри гель 1000 into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Листаб into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Локоид into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лордестин into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Лоцерил into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Офломил into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мертенил into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Мирамистин (50мл) into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микозорал таб. into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Кетоконазол таб. into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микосист into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Нейронтин into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Некст into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Низорал крем/мазь into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микозорал крем/мазь into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Низорал шампунь into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микозорал шампунь into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Новиган into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ново-пассит into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Боярышник into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ноотропил into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пирацетам into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Норваск into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дротаверин into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Орунгал into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Итраконазол, Ирунин into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ринонорм спрей into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пантенол-Д into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Дексапантенол into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Гопантеновая кислота into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Пара-плюс от вшей into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Чемеричная вода into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Предуктал МВ into","time":"2018-10-05T19:39:48+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Равел into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Риностоп спрей into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Снуп into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Супрастинекс into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert ТераФлю into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Максиколд into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тиберал into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Орнидазол into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Тридерм into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Акридерм ГК into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксевазин гель into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксерутин гель into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксевазин таб. into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Троксерутин таб. into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Ультоп into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Урсосан into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Урдокса into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Урсофальк into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фенотропил into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фестал into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фервекс into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Флемоксин Солютаб into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Амоксициллин into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Флуцинар into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Синафлан into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Фунготербин into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Халиксол, Хеликсол into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Хемомицин into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Цетрин into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эгилок into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Экзодерил into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Микодерил into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Элоком into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Момат into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эргоферон into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эрексезил into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert Эриус into","time":"2018-10-05T19:39:49+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T19:39:54+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T20:12:47+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T20:12:52+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Венарус in","time":"2018-10-05T20:13:18+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:13:22+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:13:34+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:13:36+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T20:17:29+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"12\" doesn't exist in DB","time":"2018-10-05T20:17:39+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"12\" doesn't exist in DB","time":"2018-10-05T20:17:39+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:17:45+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"\\\"\" doesn't exist in DB","time":"2018-10-05T20:17:47+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \":as\" doesn't exist in DB","time":"2018-10-05T20:17:50+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"asd\" doesn't exist in DB","time":"2018-10-05T20:17:52+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:18:22+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"asd\" doesn't exist in DB","time":"2018-10-05T20:18:34+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:18:39+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:18:43+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:18:46+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T20:19:34+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:19:37+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:19:40+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T20:23:29+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:23:33+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"12\" doesn't exist in DB","time":"2018-10-05T20:24:02+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"asd\" doesn't exist in DB","time":"2018-10-05T20:24:31+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:24:36+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T20:24:43+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:24:46+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:24:48+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:24:54+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T20:29:23+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T20:30:27+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:30:30+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T20:31:02+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:31:05+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T20:31:42+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:31:47+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T20:32:19+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:32:21+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T20:49:10+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:49:17+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:49:17+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:49:17+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:49:26+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:49:26+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"венарус\" doesn't exist in DB","time":"2018-10-05T20:49:26+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:49:31+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:49:31+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Венарус in","time":"2018-10-05T20:49:31+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:49:35+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:49:35+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"фыв\" doesn't exist in DB","time":"2018-10-05T20:49:35+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:49:37+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:49:37+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:49:37+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:49:39+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:49:39+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:49:39+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:49:41+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:49:41+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:49:41+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:49:42+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:49:42+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:49:42+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T20:53:51+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:53:57+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-05T20:53:57+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:53:57+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T20:54:01+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:54:11+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:54:11+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Венарус in","time":"2018-10-05T20:54:11+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-05T20:56:05+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:56:08+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:56:08+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Венарус in","time":"2018-10-05T20:56:08+03:00"}
+{"level":"warning","msg":"decoder error: \"error\" : \"InvalidRequest -\u003e schema: error converting value for \"id\"\"","time":"2018-10-05T20:56:19+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:56:19+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:56:21+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:56:21+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 12 in","time":"2018-10-05T20:56:21+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:56:24+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:56:24+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 21 in","time":"2018-10-05T20:56:24+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:56:26+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:56:26+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 200 in","time":"2018-10-05T20:56:26+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:56:30+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:56:30+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 150 in","time":"2018-10-05T20:56:30+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:56:32+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:56:32+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 152 in","time":"2018-10-05T20:56:32+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:56:34+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-05T20:56:34+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 145 in","time":"2018-10-05T20:56:34+03:00"}

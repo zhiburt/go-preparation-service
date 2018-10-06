@@ -26,7 +26,9 @@ type (
 		Id               int
 		Name             string
 		Description      string
+		Type             string
 		ActiveIngredient string
+		ImageURL         string
 	}
 
 	Supplier struct {
@@ -61,7 +63,7 @@ func GetAllPreparations() []*Preparation {
 	var preparations []*Preparation
 	for rows.Next() {
 		preparat := &Preparation{}
-		err = rows.Scan(&preparat.Id, &preparat.Name, &preparat.Description, &preparat.ActiveIngredient)
+		err = rows.Scan(&preparat.Id, &preparat.Name, &preparat.Description, &preparat.Type, &preparat.ActiveIngredient, &preparat.ImageURL)
 		checkErr(err)
 		preparations = append(preparations, preparat)
 	}
@@ -85,10 +87,12 @@ func InsertIntoPreparations(p *Preparation) (bool, error) {
 	}
 
 	var lastInsertId int
-	err = db.QueryRow("INSERT INTO preparations(name, description, activeIngredient) VALUES($1,$2,$3) returning id;",
+	err = db.QueryRow("INSERT INTO preparations(name, description,type, activeIngredient, imageURL) VALUES($1,$2,$3,$4,$5) returning id;",
 		p.Name,
 		p.Description,
-		p.ActiveIngredient).Scan(&lastInsertId) //scan for check and it's Copy & Past*)))
+		p.Type,
+		p.ActiveIngredient,
+		p.ImageURL).Scan(&lastInsertId) //scan for check and it's Copy & Past*)))
 	if err != nil {
 		return false, fmt.Errorf("scan error: %v", err)
 	}
@@ -107,11 +111,11 @@ func FindPreparationByName(name string) *Preparation {
 	defer rows.Close()
 
 	if rows.Next() == false {
-		__panic_text("FindPreparationByName", fmt.Errorf("Preparation with NAME %q doesn't exist in DB", name))
+		log.Info("FindPreparationByName ", fmt.Sprintf("Preparation with NAME %q doesn't exist in DB", name))
 		return nil
 	}
 	preparat := &Preparation{}
-	err = rows.Scan(&preparat.Id, &preparat.Name, &preparat.Description, &preparat.ActiveIngredient)
+	err = rows.Scan(&preparat.Id, &preparat.Name, &preparat.Description, &preparat.Type, &preparat.ActiveIngredient, &preparat.ImageURL)
 	if err != nil {
 		__panic_text("FindPreparationByName", fmt.Errorf("scan error: %v", err))
 		return nil
@@ -130,11 +134,11 @@ func FindPreparationById(id int) *Preparation {
 	defer rows.Close()
 
 	if rows.Next() == false {
-		__panic_text("FindPreparationById", fmt.Errorf("Preparation with NAME %q doesn't exist in DB", id))
+		log.Info("FindPreparationById ", fmt.Sprintf("Preparation with ID %q doesn't exist in DB", id))
 		return nil
 	}
 	preparat := &Preparation{}
-	err = rows.Scan(&preparat.Id, &preparat.Name, &preparat.Description, &preparat.ActiveIngredient)
+	err = rows.Scan(&preparat.Id, &preparat.Name, &preparat.Description, &preparat.Type, &preparat.ActiveIngredient, &preparat.ImageURL)
 	if err != nil {
 		__panic_text("FindPreparationById", fmt.Errorf("scan error: %v", err))
 		return nil
@@ -172,10 +176,10 @@ func UpdatePreparation(p *Preparation) bool {
 		log.Warning("DeletePreparation: ", "parametr is <nil>")
 		return false
 	}
-	stmt, err := db.Prepare("update preparations set name=$2, description=$3, activeIngredient=$4 where id=$1")
+	stmt, err := db.Prepare("update preparations set name=$2, description=$3, type=$4, activeIngredient=$5, imageURL=$6 where id=$1")
 	checkErr(err)
 
-	res, err := stmt.Exec(p.Id, p.Name, p.Description, p.ActiveIngredient)
+	res, err := stmt.Exec(p.Id, p.Name, p.Description, p.Type, p.ActiveIngredient, p.ImageURL)
 	if err != nil {
 		__panic_text("UpdatePreparation: ", fmt.Errorf("UpdatePreparation-Exec error: %v", err))
 		return false
