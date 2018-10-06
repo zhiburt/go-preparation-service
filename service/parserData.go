@@ -295,7 +295,7 @@ func init() {
 		//rand type
 		rand := rand.NewSource(time.Now().Unix())
 		for _, el := range preps {
-			b, err := db.InsertIntoPreparations(&db.Preparation{
+			err := db.InsertIntoPreparations(&db.Preparation{
 				Name:             el.Name,
 				Description:      getRandomFromSliceStr(getMedicalPreparatDescription(), &rand),
 				ActiveIngredient: el.ActiveIngredient,
@@ -304,9 +304,6 @@ func init() {
 			})
 			if err != nil {
 				panic(err)
-			}
-			if !b {
-				fmt.Println("EXISTS ", el.Name)
 			}
 		}
 	}

@@ -1,5 +1,7 @@
 package main
 
+//TODO RENAME ROUTING
+
 import (
 	"fmt"
 	"io/ioutil"
@@ -35,10 +37,42 @@ func main() {
 		Methods(http.MethodGet)
 	router.HandleFunc("/preparations/find/byId", controllers.FindPreparationByIdController).
 		Methods(http.MethodGet)
-	router.HandleFunc("/preparations/{name}", controllers.PreparationController).
+	router.HandleFunc("/preparations/new", controllers.InsertPreparationController).
+		Methods(http.MethodPut)
+	router.HandleFunc("/preparations/update", controllers.UpdatePreparationController).
+		Methods(http.MethodPost)
+	router.HandleFunc("/preparations/delete", controllers.DeletePreparationController).
+		Methods(http.MethodDelete)
+
+	router.HandleFunc("/suppliers", controllers.AllSuppliersController).
 		Methods(http.MethodGet)
-	router.HandleFunc("/preparations/type/{type_name}", controllers.PreparationsByTypeController).
+	router.HandleFunc("/suppliers/all", controllers.AllSuppliersController).
 		Methods(http.MethodGet)
+	router.HandleFunc("/suppliers/find/byName", controllers.FindSupplierByNameController).
+		Methods(http.MethodGet)
+	router.HandleFunc("/suppliers/find/byCompany", controllers.FindSuppliersByCompanyController).
+		Methods(http.MethodGet)
+	router.HandleFunc("/suppliers/find/byId", controllers.FindSupplierByIdController).
+		Methods(http.MethodGet)
+	router.HandleFunc("/suppliers/new", controllers.InsertSupplierController).
+		Methods(http.MethodPut)
+	router.HandleFunc("/suppliers/update", controllers.UpdateSupplierController).
+		Methods(http.MethodPost)
+	router.HandleFunc("/suppliers/delete", controllers.DeleteSupplierController).
+		Methods(http.MethodDelete)
+
+	router.HandleFunc("/goods", controllers.AllGoodsController).
+		Methods(http.MethodGet)
+
+	router.HandleFunc("/goods/suppliers", controllers.AllSuppliersGoodsController).
+		Methods(http.MethodGet)
+	router.HandleFunc("/goods/preparations", controllers.AllPreparationsGoodsController).
+		Methods(http.MethodGet)
+	router.HandleFunc("/goods/new", controllers.InsertGoodController).
+		Methods(http.MethodPut)
+	router.HandleFunc("/goods/delete", controllers.DeleteGoodController).
+		Methods(http.MethodDelete)
+
 	mServer := http.Server{
 		Addr:              conf.Address + ":" + conf.Port,
 		ReadTimeout:       time.Duration(10 * time.Millisecond),

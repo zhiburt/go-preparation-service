@@ -73,17 +73,17 @@ func GetAllPreparations() []*Preparation {
 }
 
 //InsertIntoPreparations insert data into
-func InsertIntoPreparations(p *Preparation) (bool, error) {
+func InsertIntoPreparations(p *Preparation) error {
 	if p == nil {
-		return false, fmt.Errorf("preparation must be no <nil>")
+		return fmt.Errorf("preparation must be no <nil>")
 	}
 	b, err := checkExistNamePreparation(p.Name)
 	if err != nil {
 		log.Errorf("InsertIntoPreparations with parametrs{name=%v} error: %v", p, err)
-		return false, err
+		return err
 	}
 	if b {
-		return false, fmt.Errorf("Name %q exists in DB", p.Name)
+		return fmt.Errorf("Name %q exists in DB", p.Name)
 	}
 
 	var lastInsertId int
@@ -94,11 +94,11 @@ func InsertIntoPreparations(p *Preparation) (bool, error) {
 		p.ActiveIngredient,
 		p.ImageURL).Scan(&lastInsertId) //scan for check and it's Copy & Past*)))
 	if err != nil {
-		return false, fmt.Errorf("scan error: %v", err)
+		return fmt.Errorf("scan error: %v", err)
 	}
 
 	log.Infof("preparations: insert %v into", p.Name)
-	return true, nil
+	return nil
 }
 
 //FindPreparationByName find only one object
@@ -391,7 +391,9 @@ func InsertIntoPreparationOfSuppliers(s *Supplier, p *Preparation, price float64
 		s.Id,
 		price).Scan(&lastInsertId) //scan for check and it's Copy & Past*)))
 	if err != nil {
-		__panic_text("InsertIntoPreparationOfSuppliers", fmt.Errorf("scan error: %v", err))
+		log.Errorf("InsertIntoPreparationOfSuppliers: %v", fmt.Errorf("scan error: %v", err))
+		//ERORR IF ID > N
+		//__panic_text("InsertIntoPreparationOfSuppliers", fmt.Errorf("scan error: %v", err))
 		return false
 	}
 
@@ -464,6 +466,27 @@ func DeletePreparationOfSupplier(s *Supplier, p *Preparation) int {
 
 	log.Infof("PreparationOfSupplier: delete %v with Id=%d in", p.Name, p.Id)
 	return int(affect)
+}
+
+//GetAllGoods withaut ID
+func GetAllGoods() []*PreparationOfSupplier {
+	// fmt.Println("# Querying")
+	rows, err := db.Query("SELECT supplier_id, preparation_id, price FROM suppliers_preparations")
+	defer rows.Close()
+	if err != nil {
+		__panic_text("suppliers_preparations:: ", fmt.Errorf("GetAllGoods: %v", err))
+		return nil
+	}
+
+	var spl []*PreparationOfSupplier
+	for rows.Next() {
+		s := &PreparationOfSupplier{}
+		err = rows.Scan(&s.SupplierId, &s.PreparationId, &s.Price)
+		checkErr(err)
+		spl = append(spl, s)
+	}
+
+	return spl
 }
 
 func main() {
