@@ -19,14 +19,14 @@ type ApiError struct {
 }
 
 func (e *ApiError) Error() string {
-	return fmt.Sprintf(`"error" : "%v"`, e.Err)
+	return fmt.Sprintf(`{ "error" : "%v" }`, e.Err)
 }
 
 func getJson(i interface{}) ([]byte, error) {
 	if i == nil {
 		return nil, nil
 	}
-	b, err := json.MarshalIndent(i, "", "")
+	b, err := json.MarshalIndent(i, " ", "")
 	if err != nil {
 		return nil, fmt.Errorf("getJson error: %v", err)
 	}
@@ -34,7 +34,7 @@ func getJson(i interface{}) ([]byte, error) {
 	return b, nil
 }
 
-func getOkJSON(i interface{}) ([]byte, error) {
+func GetOkJSON(i interface{}) ([]byte, error) {
 	m := make(map[string]interface{})
 	m["data"] = i
 	b, err := getJson(m)
@@ -100,10 +100,9 @@ func init() {
 	logSettings.Logger.Level = logrus.InfoLevel
 	logSettings.Logger.SetFormatter(&logrus.JSONFormatter{})
 	lf, err := os.OpenFile("./logs/_controllers/preparation_log.json.log", os.O_APPEND|os.O_WRONLY, os.ModeAppend)
-	if err != nil {
-		panic(err)
+	if err == nil {
+		logSettings.Logger.SetOutput(lf)
 	}
-	logSettings.Logger.SetOutput(lf)
 	log = logSettings.Logger
 
 	// //defer lf.Close()

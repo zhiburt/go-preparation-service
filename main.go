@@ -10,13 +10,43 @@ import (
 	"os"
 	"time"
 
-	_ "github.com/lib/pq"
+	// _ "github.com/lib/pq"
 
-	"./controllers"
-	_ "./service"
+	"uni/coorse/controllers"
+
+	_ "uni/coorse/service"
 
 	"github.com/go-yaml/yaml"
 	"github.com/gorilla/mux"
+)
+
+//URLs
+const (
+	//Preparations
+	AllPreparationsURL         = "/preparations"
+	AllPreparationsVersion2URL = "/preparations/all"
+	FindPreparationByNameURL   = "/preparations/find/byName"
+	FindPreparationByIdURL     = "/preparations/find/byId"
+	NewPreparationURL          = "/preparations/new"
+	UpdatePreparationURL       = "/preparations/update"
+	DeletePreparationURL       = "/preparations/delete"
+
+	//Suppliers
+	AllSuppliersURL                 = "/suppliers"
+	AllSuppliersVersion2URL         = "/suppliers/all"
+	FindSupplierByAddressAndNameURL = "/suppliers/find/byAddressAndName"
+	FindSuppliersByCompanyURL       = "/suppliers/find/byCompany"
+	FindSupplierByIdURL             = "/suppliers/find/byId"
+	NewSupplierURL                  = "/suppliers/new"
+	UpdateSupplierURL               = "/suppliers/update"
+	DeleteSupplierURL               = "/suppliers/delete"
+
+	//Goods
+	AllGoodsURL              = "/goods"
+	AllGoodsBySupplierURL    = "/goods/suppliers"
+	AllGoodsByPreparationURL = "/goods/preparations"
+	NewGoodURL               = "/goods/new"
+	DeteteGoodURL            = "/goods/delBySupplierete"
 )
 
 type Config struct {
@@ -28,59 +58,70 @@ type Config struct {
 var conf Config
 
 func main() {
-	router := mux.NewRouter()
-	router.HandleFunc("/preparations", controllers.AllPreparationsController).
-		Methods(http.MethodGet)
-	router.HandleFunc("/preparations/all", controllers.AllPreparationsController).
-		Methods(http.MethodGet)
-	router.HandleFunc("/preparations/find/byName", controllers.FindPreparationByNameController).
-		Methods(http.MethodGet)
-	router.HandleFunc("/preparations/find/byId", controllers.FindPreparationByIdController).
-		Methods(http.MethodGet)
-	router.HandleFunc("/preparations/new", controllers.InsertPreparationController).
-		Methods(http.MethodPut)
-	router.HandleFunc("/preparations/update", controllers.UpdatePreparationController).
-		Methods(http.MethodPost)
-	router.HandleFunc("/preparations/delete", controllers.DeletePreparationController).
-		Methods(http.MethodDelete)
+	mServer := NewServer()
+	log.Fatal(mServer.ListenAndServe())
+}
 
-	router.HandleFunc("/suppliers", controllers.AllSuppliersController).
-		Methods(http.MethodGet)
-	router.HandleFunc("/suppliers/all", controllers.AllSuppliersController).
-		Methods(http.MethodGet)
-	router.HandleFunc("/suppliers/find/byName", controllers.FindSupplierByNameController).
-		Methods(http.MethodGet)
-	router.HandleFunc("/suppliers/find/byCompany", controllers.FindSuppliersByCompanyController).
-		Methods(http.MethodGet)
-	router.HandleFunc("/suppliers/find/byId", controllers.FindSupplierByIdController).
-		Methods(http.MethodGet)
-	router.HandleFunc("/suppliers/new", controllers.InsertSupplierController).
-		Methods(http.MethodPut)
-	router.HandleFunc("/suppliers/update", controllers.UpdateSupplierController).
-		Methods(http.MethodPost)
-	router.HandleFunc("/suppliers/delete", controllers.DeleteSupplierController).
-		Methods(http.MethodDelete)
+func NewServer() *http.Server {
+	router := NewHandler()
 
-	router.HandleFunc("/goods", controllers.AllGoodsController).
-		Methods(http.MethodGet)
-
-	router.HandleFunc("/goods/suppliers", controllers.AllSuppliersGoodsController).
-		Methods(http.MethodGet)
-	router.HandleFunc("/goods/preparations", controllers.AllPreparationsGoodsController).
-		Methods(http.MethodGet)
-	router.HandleFunc("/goods/new", controllers.InsertGoodController).
-		Methods(http.MethodPut)
-	router.HandleFunc("/goods/delete", controllers.DeleteGoodController).
-		Methods(http.MethodDelete)
-
-	mServer := http.Server{
+	mServer := &http.Server{
 		Addr:              conf.Address + ":" + conf.Port,
 		ReadTimeout:       time.Duration(10 * time.Millisecond),
 		ReadHeaderTimeout: time.Duration(10 * time.Millisecond),
 		WriteTimeout:      time.Duration(30 * time.Millisecond),
 		Handler:           router,
 	}
-	log.Fatal(mServer.ListenAndServe())
+
+	return mServer
+}
+
+func NewHandler() http.Handler {
+	router := mux.NewRouter()
+	router.HandleFunc(AllPreparationsURL, controllers.AllPreparationsController).
+		Methods(http.MethodGet)
+	router.HandleFunc(AllPreparationsVersion2URL, controllers.AllPreparationsController).
+		Methods(http.MethodGet)
+	router.HandleFunc(FindPreparationByNameURL, controllers.FindPreparationByNameController).
+		Methods(http.MethodGet)
+	router.HandleFunc(FindPreparationByIdURL, controllers.FindPreparationByIdController).
+		Methods(http.MethodGet)
+	router.HandleFunc(NewPreparationURL, controllers.InsertPreparationController).
+		Methods(http.MethodPut)
+	router.HandleFunc(UpdatePreparationURL, controllers.UpdatePreparationController).
+		Methods(http.MethodPost)
+	router.HandleFunc(DeletePreparationURL, controllers.DeletePreparationController).
+		Methods(http.MethodDelete)
+
+	router.HandleFunc(AllSuppliersURL, controllers.AllSuppliersController).
+		Methods(http.MethodGet)
+	router.HandleFunc(AllSuppliersVersion2URL, controllers.AllSuppliersController).
+		Methods(http.MethodGet)
+	router.HandleFunc(FindSupplierByAddressAndNameURL, controllers.FindSupplierByNameController).
+		Methods(http.MethodGet)
+	router.HandleFunc(FindSuppliersByCompanyURL, controllers.FindSuppliersByCompanyController).
+		Methods(http.MethodGet)
+	router.HandleFunc(FindSupplierByIdURL, controllers.FindSupplierByIdController).
+		Methods(http.MethodGet)
+	router.HandleFunc(NewSupplierURL, controllers.InsertSupplierController).
+		Methods(http.MethodPut)
+	router.HandleFunc(UpdateSupplierURL, controllers.UpdateSupplierController).
+		Methods(http.MethodPost)
+	router.HandleFunc(DeleteSupplierURL, controllers.DeleteSupplierController).
+		Methods(http.MethodDelete)
+
+	router.HandleFunc(AllGoodsURL, controllers.AllGoodsController).
+		Methods(http.MethodGet)
+	router.HandleFunc(AllGoodsBySupplierURL, controllers.AllSuppliersGoodsController).
+		Methods(http.MethodGet)
+	router.HandleFunc(AllGoodsByPreparationURL, controllers.AllPreparationsGoodsController).
+		Methods(http.MethodGet)
+	router.HandleFunc(NewGoodURL, controllers.InsertGoodController).
+		Methods(http.MethodPut)
+	router.HandleFunc(DeteteGoodURL, controllers.DeleteGoodController).
+		Methods(http.MethodDelete)
+
+	return router
 }
 
 func init() {

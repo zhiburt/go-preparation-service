@@ -6,7 +6,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	// _ "github.com/lib/pq"
+	_ "github.com/lib/pq"
 
 	"github.com/sirupsen/logrus"
 )
@@ -83,7 +83,7 @@ func InsertIntoPreparations(p *Preparation) error {
 		return err
 	}
 	if b {
-		return fmt.Errorf("Name %q exists in DB", p.Name)
+		return fmt.Errorf("Name %s exists in DB", p.Name)
 	}
 
 	var lastInsertId int
@@ -153,11 +153,20 @@ func DeletePreparation(p *Preparation) int {
 		log.Warning("DeletePreparation: ", "parametr is <nil>")
 		return 0
 	}
-	// fmt.Println("# Deleting")
-	stmt, err := db.Prepare("delete from preparations where id=$1")
-	checkErr(err)
+	var stmt *sql.Stmt
+	var err error
+	var res sql.Result
+	if p.Name != "" {
+		stmt, err = db.Prepare("delete from preparations where name=$1")
+		checkErr(err)
 
-	res, err := stmt.Exec(p.Id)
+		res, err = stmt.Exec(p.Name)
+	} else {
+		stmt, err = db.Prepare("delete from preparations where id=$1")
+		checkErr(err)
+
+		res, err = stmt.Exec(p.Id)
+	}
 	if err != nil {
 		__panic_text("DeletePreparation", fmt.Errorf("DeletePreparation-Exec error: %v", err))
 		return 0
@@ -166,20 +175,31 @@ func DeletePreparation(p *Preparation) int {
 	affect, err := res.RowsAffected()
 	checkErr(err)
 
-	log.Infof("preparations: delete %v with Id=%d in", p.Name, p.Id)
+	log.Infof("preparations: delete name=%s with Id=%d in", p.Name, p.Id)
 	return int(affect)
 }
 
 func UpdatePreparation(p *Preparation) bool {
 	// fmt.Println("# Updating")
 	if p == nil {
-		log.Warning("DeletePreparation: ", "parametr is <nil>")
+		log.Warning("UpdatePreparation: ", "parametr is <nil>")
 		return false
 	}
-	stmt, err := db.Prepare("update preparations set name=$2, description=$3, type=$4, activeIngredient=$5, imageURL=$6 where id=$1")
-	checkErr(err)
 
-	res, err := stmt.Exec(p.Id, p.Name, p.Description, p.Type, p.ActiveIngredient, p.ImageURL)
+	var stmt *sql.Stmt
+	var err error
+	var res sql.Result
+	if p.Name != "" {
+		stmt, err = db.Prepare("update preparations set description=$2, type=$3, activeIngredient=$4, imageURL=$5 where name=$1")
+		checkErr(err)
+
+		res, err = stmt.Exec(p.Name, p.Description, p.Type, p.ActiveIngredient, p.ImageURL)
+	} else {
+		stmt, err = db.Prepare("update preparations set name=$2, description=$3, type=$4, activeIngredient=$5, imageURL=$6 where id=$1")
+		checkErr(err)
+
+		res, err = stmt.Exec(p.Id, p.Name, p.Description, p.Type, p.ActiveIngredient, p.ImageURL)
+	}
 	if err != nil {
 		__panic_text("UpdatePreparation: ", fmt.Errorf("UpdatePreparation-Exec error: %v", err))
 		return false

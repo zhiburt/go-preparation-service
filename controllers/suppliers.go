@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"../db"
+	"uni/coorse/db"
+	// "../db"
 )
 
 //AllPreparationsController Get all preparation
@@ -14,7 +15,7 @@ func AllSuppliersController(w http.ResponseWriter, r *http.Request) {
 
 	m := make(map[string][]*db.Supplier)
 	m["data"] = all
-	b, err := getOkJSON(all)
+	b, err := GetOkJSON(all)
 	if err != nil {
 		err := &ApiError{fmt.Errorf("server error : %v", err), http.StatusInternalServerError}
 		w.WriteHeader(err.StatusCode)
@@ -80,7 +81,7 @@ func FindSupplierByIdController(w http.ResponseWriter, r *http.Request) {
 
 	//found by name
 	if sr.Id < 0 {
-		e := &ApiError{fmt.Errorf("InvalidRequest -> id must be > 0", err), http.StatusInternalServerError}
+		e := &ApiError{fmt.Errorf("InvalidRequest -> id must be > 0"), http.StatusInternalServerError}
 		w.WriteHeader(e.StatusCode)
 		w.Write([]byte(e.Err.Error()))
 		return
@@ -88,7 +89,7 @@ func FindSupplierByIdController(w http.ResponseWriter, r *http.Request) {
 
 	supplier := db.FindSupplierById(sr.Id)
 
-	b, err := getOkJSON(supplier)
+	b, err := GetOkJSON(supplier)
 	if err != nil {
 		err := &ApiError{fmt.Errorf("server error : %v", err), http.StatusInternalServerError}
 		w.WriteHeader(err.StatusCode)
@@ -113,7 +114,7 @@ func FindSupplierByNameController(w http.ResponseWriter, r *http.Request) {
 
 	//found by name
 	if sr.Name == "" || sr.Address == "" {
-		e := &ApiError{fmt.Errorf("InvalidRequest : name and address must be not empty", err), http.StatusInternalServerError}
+		e := &ApiError{fmt.Errorf("InvalidRequest : name and address must be not empty"), http.StatusInternalServerError}
 		w.WriteHeader(e.StatusCode)
 		w.Write([]byte(e.Err.Error()))
 		return
@@ -121,7 +122,7 @@ func FindSupplierByNameController(w http.ResponseWriter, r *http.Request) {
 
 	supplier := db.FindSupplierByNameAndAdress(sr.Name, sr.Address)
 
-	b, err := getOkJSON(supplier)
+	b, err := GetOkJSON(supplier)
 	if err != nil {
 		err := &ApiError{fmt.Errorf("server error : %v", err), http.StatusInternalServerError}
 		w.WriteHeader(err.StatusCode)
@@ -154,7 +155,7 @@ func FindSuppliersByCompanyController(w http.ResponseWriter, r *http.Request) {
 
 	suppliers := db.FindSuppliersByCompany(sr.Company)
 
-	b, err := getOkJSON(suppliers)
+	b, err := GetOkJSON(suppliers)
 	if err != nil {
 		err := &ApiError{fmt.Errorf("server error : %v", err), http.StatusInternalServerError}
 		w.WriteHeader(err.StatusCode)
@@ -195,7 +196,7 @@ func InsertSupplierController(w http.ResponseWriter, r *http.Request) {
 	})
 
 	if !stat {
-		err := &ApiError{fmt.Errorf("db: supplier exists in : %v"), http.StatusInternalServerError}
+		err := &ApiError{fmt.Errorf("db: supplier exists in"), http.StatusInternalServerError}
 		w.WriteHeader(err.StatusCode)
 		w.Write([]byte(err.Error()))
 		return
@@ -235,7 +236,7 @@ func UpdateSupplierController(w http.ResponseWriter, r *http.Request) {
 	})
 
 	if !stat {
-		err := &ApiError{fmt.Errorf("db: supplier doesn't exists in : %v"), http.StatusInternalServerError}
+		err := &ApiError{fmt.Errorf("db: supplier doesn't exists in"), http.StatusInternalServerError}
 		w.WriteHeader(err.StatusCode)
 		w.Write([]byte(err.Error()))
 		return
@@ -275,7 +276,7 @@ func DeleteSupplierController(w http.ResponseWriter, r *http.Request) {
 	})
 
 	if stat == 0 {
-		err := &ApiError{fmt.Errorf("db: supplier doesn't exists in : %v"), http.StatusInternalServerError}
+		err := &ApiError{fmt.Errorf("db: supplier doesn't exists in"), http.StatusInternalServerError}
 		w.WriteHeader(err.StatusCode)
 		w.Write([]byte(err.Error()))
 		return

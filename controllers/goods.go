@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"../db"
+	"uni/coorse/db"
 )
 
 type (
@@ -34,7 +34,7 @@ func AllGoodsController(w http.ResponseWriter, r *http.Request) {
 
 	goods := db.GetAllGoods()
 
-	b, err := getOkJSON(goods)
+	b, err := GetOkJSON(goods)
 	if err != nil {
 		err := &ApiError{fmt.Errorf("server error : %v", err), http.StatusInternalServerError}
 		w.WriteHeader(err.StatusCode)
@@ -58,17 +58,9 @@ func AllSuppliersGoodsController(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// //found by name
-	// if sr.SupplierID < 0 {
-	// 	e := &ApiError{fmt.Errorf("InvalidRequest -> id must be > 0", err), http.StatusInternalServerError}
-	// 	w.WriteHeader(e.StatusCode)
-	// 	w.Write([]byte(e.Err.Error()))
-	// 	return
-	// }
-
 	goods := db.GetAllPreparationOfSupplier(&db.Supplier{Id: sr.SupplierID})
 
-	b, err := getOkJSON(goods)
+	b, err := GetOkJSON(goods)
 	if err != nil {
 		err := &ApiError{fmt.Errorf("server error : %v", err), http.StatusInternalServerError}
 		w.WriteHeader(err.StatusCode)
@@ -101,7 +93,7 @@ func AllPreparationsGoodsController(w http.ResponseWriter, r *http.Request) {
 
 	goods := db.GetAllPreparationOfSupplierByPrep(&db.Preparation{Id: sr.PreparationID})
 
-	b, err := getOkJSON(goods)
+	b, err := GetOkJSON(goods)
 	if err != nil {
 		err := &ApiError{fmt.Errorf("server error : %v", err), http.StatusInternalServerError}
 		w.WriteHeader(err.StatusCode)

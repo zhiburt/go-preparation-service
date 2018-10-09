@@ -12,7 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"../db"
+	"uni/coorse/db"
+	// "../db"
 
 	"github.com/PuerkitoBio/goquery"
 )

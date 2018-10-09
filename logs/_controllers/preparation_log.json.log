@@ -1445,3 +1445,347 @@
 {"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-06T20:00:51+03:00"}
 {"level":"info","msg":"__error_handle call","time":"2018-10-06T20:01:17+03:00"}
 {"level":"info","msg":"__error_handle call","time":"2018-10-06T20:01:17+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T10:29:14+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:30:05+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-08T10:30:05+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:30:05+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:30:13+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:30:13+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:30:13+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:30:13+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:31:54+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:31:54+03:00"}
+{"DB":"postgre","level":"error","msg":"InsertIntoPreparationOfSuppliers: scan error: pq: insert or update on table \"suppliers_preparations\" violates foreign key constraint \"suppliers_preparations_preparation_id_fkey\"","time":"2018-10-08T10:31:54+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:32:28+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:32:28+03:00"}
+{"DB":"postgre","level":"error","msg":"InsertIntoPreparationOfSuppliers: scan error: pq: insert or update on table \"suppliers_preparations\" violates foreign key constraint \"suppliers_preparations_preparation_id_fkey\"","time":"2018-10-08T10:32:28+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:32:33+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:32:33+03:00"}
+{"DB":"postgre","level":"error","msg":"InsertIntoPreparationOfSuppliers: scan error: pq: insert or update on table \"suppliers_preparations\" violates foreign key constraint \"suppliers_preparations_preparation_id_fkey\"","time":"2018-10-08T10:32:33+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:32:34+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:32:34+03:00"}
+{"DB":"postgre","level":"error","msg":"InsertIntoPreparationOfSuppliers: scan error: pq: insert or update on table \"suppliers_preparations\" violates foreign key constraint \"suppliers_preparations_preparation_id_fkey\"","time":"2018-10-08T10:32:34+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:32:43+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:32:43+03:00"}
+{"DB":"postgre","level":"error","msg":"InsertIntoPreparationOfSuppliers: scan error: pq: insert or update on table \"suppliers_preparations\" violates foreign key constraint \"suppliers_preparations_preparation_id_fkey\"","time":"2018-10-08T10:32:43+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T10:33:25+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:33:28+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:33:28+03:00"}
+{"DB":"postgre","level":"error","msg":"InsertIntoPreparationOfSuppliers: scan error: pq: insert or update on table \"suppliers_preparations\" violates foreign key constraint \"suppliers_preparations_preparation_id_fkey\"","time":"2018-10-08T10:33:28+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:33:39+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:33:39+03:00"}
+{"DB":"postgre","level":"warning","msg":"supplier  has preparation \"\" (exists in DB)","time":"2018-10-08T10:33:39+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:33:57+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T10:33:57+03:00"}
+{"DB":"postgre","level":"warning","msg":"supplier  has preparation \"\" (exists in DB)","time":"2018-10-08T10:33:57+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T11:14:21+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T11:14:32+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T11:46:38+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T11:47:05+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T11:47:47+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T11:47:56+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T11:47:58+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:00:25+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:00:52+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:01:21+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:01:21+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:01:32+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:01:32+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:01:47+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:01:53+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:01:53+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:02:21+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:02:57+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:02:57+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:03:01+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:03:01+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:03:51+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:03:51+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:32:01+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:39:27+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T12:39:27+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T13:14:43+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T13:14:43+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T13:19:52+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T13:19:52+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T13:22:09+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T13:22:09+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T16:22:57+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T16:22:57+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T16:23:48+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T16:23:48+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T16:25:02+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T16:25:02+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T16:25:45+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T16:25:51+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T16:40:13+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T16:40:13+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T16:55:02+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T16:55:55+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T16:56:28+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T16:56:28+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 1 in","time":"2018-10-08T16:56:28+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T16:56:31+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T16:56:31+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 1 in","time":"2018-10-08T16:56:31+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T16:56:33+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T16:56:33+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-08T16:56:33+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:00:43+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:00:43+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '𘚠' doesn't exist in DB","time":"2018-10-08T17:00:43+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:00:45+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:00:45+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '𘚠' doesn't exist in DB","time":"2018-10-08T17:00:45+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:02:12+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-08T17:02:12+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:02:12+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T17:04:42+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:05:06+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:05:06+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-08T17:05:06+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:05:08+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:05:08+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-08T17:05:08+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:06:10+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-08T17:06:10+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:06:10+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:06:15+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-08T17:06:15+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:06:15+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:06:16+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-08T17:06:16+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:06:16+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:07:02+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:07:02+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"asdasdasd\" doesn't exist in DB","time":"2018-10-08T17:07:02+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:11:27+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:11:27+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert new_test_name into","time":"2018-10-08T17:11:28+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:11:30+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:11:30+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T17:12:22+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:12:30+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:12:30+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert new_test_name_1 into","time":"2018-10-08T17:12:30+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:12:33+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:12:33+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T17:12:59+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:13:23+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:13:23+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:13:35+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:13:35+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete a with Id=280 in","time":"2018-10-08T17:13:35+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:13:38+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:13:38+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete a with Id=280 in","time":"2018-10-08T17:13:38+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:13:53+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:13:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete 1 with Id=279 in","time":"2018-10-08T17:13:53+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T17:13:55+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:17:00+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:17:00+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert 1MAXIM into","time":"2018-10-08T17:17:00+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:17:02+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:17:02+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:17:43+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-08T17:17:43+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:17:43+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:22:25+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-08T17:22:25+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:22:25+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:23:06+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-08T17:23:06+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:23:06+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:23:09+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:23:09+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 new_test_name_1    } in","time":"2018-10-08T17:23:09+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:23:14+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:23:14+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{2 new_test_name_1    } in","time":"2018-10-08T17:23:14+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:23:16+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:23:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{2 new_test_name_1    } in","time":"2018-10-08T17:23:16+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:23:16+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:23:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{2 new_test_name_1    } in","time":"2018-10-08T17:23:16+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:23:17+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:23:17+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 new_test_name_1    } in","time":"2018-10-08T17:23:18+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:23:18+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:23:18+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 new_test_name_1    } in","time":"2018-10-08T17:23:18+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:23:19+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:23:19+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 new_test_name_1    } in","time":"2018-10-08T17:23:19+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:02+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:02+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 new_test_name_1    } in","time":"2018-10-08T17:25:02+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:03+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:03+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 new_test_name_1    } in","time":"2018-10-08T17:25:03+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:16+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 123    } in","time":"2018-10-08T17:25:16+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:17+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:17+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 123    } in","time":"2018-10-08T17:25:17+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:18+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:18+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 123    } in","time":"2018-10-08T17:25:18+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:18+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:18+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 123    } in","time":"2018-10-08T17:25:18+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:19+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:19+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 123    } in","time":"2018-10-08T17:25:19+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:20+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:20+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 123    } in","time":"2018-10-08T17:25:20+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:20+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:20+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 123    } in","time":"2018-10-08T17:25:20+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:20+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:20+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 123    } in","time":"2018-10-08T17:25:20+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:21+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:21+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 123    } in","time":"2018-10-08T17:25:21+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:29+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:29+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 new_test_name_1    } in","time":"2018-10-08T17:25:29+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:31+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:31+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 new_test_name_1    } in","time":"2018-10-08T17:25:31+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:33+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:33+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 new_test_name_1    } in","time":"2018-10-08T17:25:34+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:35+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:35+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 new_test_name_1    } in","time":"2018-10-08T17:25:35+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:36+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:25:36+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 new_test_name_1    } in","time":"2018-10-08T17:25:36+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:27:02+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:27:02+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 new_test_name_1    } in","time":"2018-10-08T17:27:02+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:27:04+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:27:04+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 new_test_name_1    } in","time":"2018-10-08T17:27:04+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T17:27:08+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:27:16+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:27:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1 new_test_name_1    } in","time":"2018-10-08T17:27:33+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:27:38+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:27:38+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T17:28:08+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:28:33+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:28:33+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T17:30:02+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T17:30:11+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:30:19+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:30:19+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T17:30:49+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:30:57+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:30:57+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T17:31:04+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:31:08+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:31:08+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:31:11+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:31:11+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T17:32:02+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:32:06+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:32:06+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:32:07+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:32:07+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:32:08+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:32:08+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:32:12+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-08T17:32:12+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:32:12+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:32:33+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:32:33+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T17:33:37+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:33:41+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:33:41+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:34:51+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:34:51+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T17:35:43+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:35:54+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:35:54+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:35:56+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:35:56+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:35:57+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:35:57+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:35:57+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:35:57+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:35:57+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:35:57+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:35:58+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:35:58+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:35:58+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:35:58+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:35:59+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:35:59+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:35:59+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:35:59+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:36:00+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:36:00+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:36:00+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:36:00+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:36:01+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:36:01+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:36:06+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:36:06+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:36:12+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:36:12+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-08T17:36:12+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:36:37+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:36:37+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T17:36:56+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:36:58+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:36:58+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:37:01+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:37:01+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:37:02+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:37:02+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T17:37:20+03:00"}
+{"level":"warning","msg":"decoder error: { \"error\" : \"InvalidRequest -\u003e schema: error converting value for \"id\"\" }","time":"2018-10-08T17:37:59+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:37:59+03:00"}
+{"level":"warning","msg":"decoder error: { \"error\" : \"InvalidRequest -\u003e schema: error converting value for \"id\"\" }","time":"2018-10-08T17:38:28+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:38:28+03:00"}
+{"level":"warning","msg":"decoder error: { \"error\" : \"InvalidRequest -\u003e schema: error converting value for \"id\"\" }","time":"2018-10-08T17:40:34+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:40:34+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:40:41+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:40:41+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-08T17:40:41+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T17:43:15+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:44:24+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T17:44:24+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete  with Id=1226 in","time":"2018-10-08T17:44:24+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T17:49:37+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T17:49:42+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T18:15:49+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T18:15:49+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T18:16:03+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T18:16:06+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T18:18:47+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T18:18:55+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-08T18:18:55+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T18:18:55+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T18:19:38+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T18:20:02+03:00"}
+{"level":"warning","msg":"govalidator mistake","time":"2018-10-08T18:20:02+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T18:20:02+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T18:20:15+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T18:20:15+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION    } in","time":"2018-10-08T18:20:33+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T18:32:52+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T18:33:00+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T18:33:00+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-08T18:33:07+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-08T18:33:29+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T18:33:31+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T18:33:31+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T18:33:32+03:00"}
+{"level":"info","msg":"__error_handle call","time":"2018-10-08T18:33:32+03:00"}

@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"../db"
+	"uni/coorse/db"
+	// "../db"
 )
 
 //AllPreparationsController Get all preparation
@@ -19,7 +20,7 @@ func AllPreparationsController(w http.ResponseWriter, r *http.Request) {
 
 	m := make(map[string][]*db.Preparation)
 	m["data"] = allPreparations
-	b, err := getOkJSON(allPreparations)
+	b, err := GetOkJSON(allPreparations)
 	if err != nil {
 		err := &ApiError{fmt.Errorf("server error : %v", err), http.StatusInternalServerError}
 		w.WriteHeader(err.StatusCode)
@@ -48,7 +49,7 @@ type (
 	}
 
 	UpdatePreparationRequest struct {
-		Id               int    `valid:"numeric, required" schema:"id"`
+		Id               int    `valid:"numeric, optional" schema:"id"`
 		Name             string `valid:", optional" schema:"name"`
 		Description      string `valid:", optional" schema:"description"`
 		Type             string `valid:", optional" schema:"type"`
@@ -57,7 +58,7 @@ type (
 	}
 
 	DeletePreparationRequest struct {
-		Id               int    `valid:"numeric, required" schema:"id"`
+		Id               int    `valid:"numeric, optional" schema:"id"`
 		Name             string `valid:", optional" schema:"name"`
 		Description      string `valid:", optional" schema:"description"`
 		Type             string `valid:", optional" schema:"type"`
@@ -79,16 +80,16 @@ func FindPreparationByIdController(w http.ResponseWriter, r *http.Request) {
 	}
 
 	//found by name
-	if sr.Id < 0 {
-		e := &ApiError{fmt.Errorf("InvalidRequest -> id must be > 0", err), http.StatusInternalServerError}
-		w.WriteHeader(e.StatusCode)
-		w.Write([]byte(e.Err.Error()))
-		return
-	}
+	// if sr.Id < 0 {
+	// 	e := &ApiError{fmt.Errorf("InvalidRequest -> id must be > 0"), http.StatusInternalServerError}
+	// 	w.WriteHeader(e.StatusCode)
+	// 	w.Write([]byte(e.Err.Error()))
+	// 	return
+	// }
 
 	preparation := db.FindPreparationById(sr.Id)
 
-	b, err := getOkJSON(preparation)
+	b, err := GetOkJSON(preparation)
 	if err != nil {
 		err := &ApiError{fmt.Errorf("server error : %v", err), http.StatusInternalServerError}
 		w.WriteHeader(err.StatusCode)
@@ -112,16 +113,16 @@ func FindPreparationByNameController(w http.ResponseWriter, r *http.Request) {
 	}
 
 	//found by name
-	if sr.Name == "" {
-		e := &ApiError{fmt.Errorf("InvalidRequest : name == \"\"", err), http.StatusInternalServerError}
-		w.WriteHeader(e.StatusCode)
-		w.Write([]byte(e.Err.Error()))
-		return
-	}
+	// if sr.Name == "" {
+	// 	e := &ApiError{fmt.Errorf("InvalidRequest : name == \"\""), http.StatusInternalServerError}
+	// 	w.WriteHeader(e.StatusCode)
+	// 	w.Write([]byte(e.Err.Error()))
+	// 	return
+	// }
 
 	preparation := db.FindPreparationByName(sr.Name)
 
-	b, err := getOkJSON(preparation)
+	b, err := GetOkJSON(preparation)
 	if err != nil {
 		err := &ApiError{fmt.Errorf("server error : %v", err), http.StatusInternalServerError}
 		w.WriteHeader(err.StatusCode)
@@ -146,12 +147,12 @@ func InsertPreparationController(w http.ResponseWriter, r *http.Request) {
 	}
 
 	//found by name
-	if sr.Name == "" {
-		e := &ApiError{fmt.Errorf("InvalidRequest : name must be not empty"), http.StatusInternalServerError}
-		w.WriteHeader(e.StatusCode)
-		w.Write([]byte(e.Err.Error()))
-		return
-	}
+	// if sr.Name == "" {
+	// 	e := &ApiError{fmt.Errorf("InvalidRequest : name must be not empty"), http.StatusInternalServerError}
+	// 	w.WriteHeader(e.StatusCode)
+	// 	w.Write([]byte(e.Err.Error()))
+	// 	return
+	// }
 
 	err = db.InsertIntoPreparations(&db.Preparation{
 		Name:             sr.Name,
@@ -162,13 +163,13 @@ func InsertPreparationController(w http.ResponseWriter, r *http.Request) {
 	})
 
 	if err != nil {
-		err := &ApiError{fmt.Errorf("error -> ", err), http.StatusInternalServerError}
+		err := &ApiError{fmt.Errorf("error -> %v", err), http.StatusInternalServerError}
 		w.WriteHeader(err.StatusCode)
 		w.Write([]byte(err.Error()))
 		return
 	}
 	w.WriteHeader(http.StatusOK)
-	w.Write([]byte(`"status" : "OK"`))
+	w.Write([]byte(`{ "status" : "OK" }`))
 }
 
 func UpdatePreparationController(w http.ResponseWriter, r *http.Request) {
@@ -184,11 +185,11 @@ func UpdatePreparationController(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	//found by name
-	if sr.Name == "" {
-		e := &ApiError{fmt.Errorf("InvalidRequest : name must be not empty"), http.StatusInternalServerError}
+	//by name or id
+	if sr.Name == "" && sr.Id == 0 {
+		e := &ApiError{fmt.Errorf("InvalidRequest -> name or id must be not empty"), http.StatusInternalServerError}
 		w.WriteHeader(e.StatusCode)
-		w.Write([]byte(e.Err.Error()))
+		w.Write([]byte(e.Error()))
 		return
 	}
 
@@ -202,13 +203,13 @@ func UpdatePreparationController(w http.ResponseWriter, r *http.Request) {
 	})
 
 	if !stat {
-		err := &ApiError{fmt.Errorf("preparation with name %s exists in db", sr.Name), http.StatusInternalServerError}
+		err := &ApiError{fmt.Errorf("preparation with name %s or id %d doesn't exists in db", sr.Name, sr.Id), http.StatusInternalServerError}
 		w.WriteHeader(err.StatusCode)
 		w.Write([]byte(err.Error()))
 		return
 	}
 	w.WriteHeader(http.StatusOK)
-	w.Write([]byte(`"status" : "OK"`))
+	w.Write([]byte(`{ "status" : "OK" }`))
 }
 
 func DeletePreparationController(w http.ResponseWriter, r *http.Request) {
@@ -224,11 +225,11 @@ func DeletePreparationController(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	//found by name
-	if sr.Name == "" {
-		e := &ApiError{fmt.Errorf("InvalidRequest : name must be not empty"), http.StatusInternalServerError}
+	//by name or id
+	if sr.Name == "" && sr.Id == 0 {
+		e := &ApiError{fmt.Errorf("InvalidRequest -> name or id must be not empty"), http.StatusInternalServerError}
 		w.WriteHeader(e.StatusCode)
-		w.Write([]byte(e.Err.Error()))
+		w.Write([]byte(e.Error()))
 		return
 	}
 
@@ -242,11 +243,11 @@ func DeletePreparationController(w http.ResponseWriter, r *http.Request) {
 	})
 
 	if changes == 0 {
-		err := &ApiError{fmt.Errorf("preparation doesn't exists in db", sr.Name), http.StatusInternalServerError}
+		err := &ApiError{fmt.Errorf("preparation with name %s or id %d doesn't exists in db", sr.Name, sr.Id), http.StatusInternalServerError}
 		w.WriteHeader(err.StatusCode)
 		w.Write([]byte(err.Error()))
 		return
 	}
 	w.WriteHeader(http.StatusOK)
-	w.Write([]byte(`"status" : "OK"`))
+	w.Write([]byte(`{ "status" : "OK" }`))
 }
