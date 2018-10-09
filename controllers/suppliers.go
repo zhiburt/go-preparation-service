@@ -42,7 +42,7 @@ type (
 
 	InsertSupplierRequest struct {
 		Name        string `valid:", required" schema:"name"`
-		Company     string `valid:", required" schema:"company"`
+		Company     string `valid:", optional" schema:"company"`
 		Address     string `valid:", required" schema:"address"`
 		Geolocation string `valid:", optional" schema:"geolocation"`
 		Description string `valid:", optional" schema:"description"`
@@ -58,7 +58,7 @@ type (
 	}
 
 	DeleteSupplierRequest struct {
-		Id          int    `valid:"numeric, required" schema:"id"`
+		Id          int    `valid:"numeric, optional" schema:"id"`
 		Name        string `valid:", optional" schema:"name"`
 		Company     string `valid:", optional" schema:"company"`
 		Address     string `valid:", optional" schema:"address"`
@@ -80,12 +80,12 @@ func FindSupplierByIdController(w http.ResponseWriter, r *http.Request) {
 	}
 
 	//found by name
-	if sr.Id < 0 {
-		e := &ApiError{fmt.Errorf("InvalidRequest -> id must be > 0"), http.StatusInternalServerError}
-		w.WriteHeader(e.StatusCode)
-		w.Write([]byte(e.Err.Error()))
-		return
-	}
+	// if sr.Id < 0 {
+	// 	e := &ApiError{fmt.Errorf("InvalidRequest -> id must be > 0"), http.StatusInternalServerError}
+	// 	w.WriteHeader(e.StatusCode)
+	// 	w.Write([]byte(e.Error()))
+	// 	return
+	// }
 
 	supplier := db.FindSupplierById(sr.Id)
 
@@ -113,12 +113,12 @@ func FindSupplierByNameController(w http.ResponseWriter, r *http.Request) {
 	}
 
 	//found by name
-	if sr.Name == "" || sr.Address == "" {
-		e := &ApiError{fmt.Errorf("InvalidRequest : name and address must be not empty"), http.StatusInternalServerError}
-		w.WriteHeader(e.StatusCode)
-		w.Write([]byte(e.Err.Error()))
-		return
-	}
+	// if sr.Name == "" || sr.Address == "" {
+	// 	e := &ApiError{fmt.Errorf("InvalidRequest : name and address must be not empty"), http.StatusInternalServerError}
+	// 	w.WriteHeader(e.StatusCode)
+	// 	w.Write([]byte(e.Error()))
+	// 	return
+	// }
 
 	supplier := db.FindSupplierByNameAndAdress(sr.Name, sr.Address)
 
@@ -146,12 +146,12 @@ func FindSuppliersByCompanyController(w http.ResponseWriter, r *http.Request) {
 	}
 
 	//found by name
-	if sr.Company == "" {
-		e := &ApiError{fmt.Errorf("InvalidRequest : name and address must be not empty"), http.StatusInternalServerError}
-		w.WriteHeader(e.StatusCode)
-		w.Write([]byte(e.Err.Error()))
-		return
-	}
+	// if sr.Company == "" {
+	// 	e := &ApiError{fmt.Errorf("InvalidRequest : name and address must be not empty"), http.StatusInternalServerError}
+	// 	w.WriteHeader(e.StatusCode)
+	// 	w.Write([]byte(e.Err.Error()))
+	// 	return
+	// }
 
 	suppliers := db.FindSuppliersByCompany(sr.Company)
 
@@ -180,12 +180,12 @@ func InsertSupplierController(w http.ResponseWriter, r *http.Request) {
 	}
 
 	//found by name
-	if sr.Company == "" || sr.Name == "" || sr.Address == "" {
-		e := &ApiError{fmt.Errorf("InvalidRequest : name, company and address must be not empty"), http.StatusInternalServerError}
-		w.WriteHeader(e.StatusCode)
-		w.Write([]byte(e.Err.Error()))
-		return
-	}
+	// if sr.Company == "" || sr.Name == "" || sr.Address == "" {
+	// 	e := &ApiError{fmt.Errorf("InvalidRequest -> name, company and address must be not empty"), http.StatusInternalServerError}
+	// 	w.WriteHeader(e.StatusCode)
+	// 	w.Write([]byte(e.Error()))
+	// 	return
+	// }
 
 	stat := db.InsertIntoSuppliers(&db.Supplier{
 		Name:        sr.Name,
@@ -201,8 +201,8 @@ func InsertSupplierController(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte(err.Error()))
 		return
 	}
-	w.WriteHeader(http.StatusOK)
-	w.Write([]byte(`"status" : "OK"`))
+
+	WriteOkStatus(&w)
 }
 
 func UpdateSupplierController(w http.ResponseWriter, r *http.Request) {
@@ -219,12 +219,12 @@ func UpdateSupplierController(w http.ResponseWriter, r *http.Request) {
 	}
 
 	//found by name
-	if sr.Company == "" || sr.Name == "" || sr.Address == "" || sr.Id == 0 {
-		e := &ApiError{fmt.Errorf("InvalidRequest : name and address, company, id must be not empty"), http.StatusInternalServerError}
-		w.WriteHeader(e.StatusCode)
-		w.Write([]byte(e.Err.Error()))
-		return
-	}
+	// if sr.Company == "" || sr.Name == "" || sr.Address == "" || sr.Id == 0 {
+	// 	e := &ApiError{fmt.Errorf("InvalidRequest : name and address, company, id must be not empty"), http.StatusInternalServerError}
+	// 	w.WriteHeader(e.StatusCode)
+	// 	w.Write([]byte(e.Error()))
+	// 	return
+	// }
 
 	stat := db.UpdateSupplier(&db.Supplier{
 		Id:          sr.Id,
@@ -241,8 +241,8 @@ func UpdateSupplierController(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte(err.Error()))
 		return
 	}
-	w.WriteHeader(http.StatusOK)
-	w.Write([]byte(`"status" : "OK"`))
+
+	WriteOkStatus(&w)
 }
 
 func DeleteSupplierController(w http.ResponseWriter, r *http.Request) {
@@ -253,16 +253,16 @@ func DeleteSupplierController(w http.ResponseWriter, r *http.Request) {
 	if __error_handle(&w, err) {
 		return
 	}
-	_, err = valid(sr)
-	if __error_handle(&w, err) {
-		return
-	}
+	// _, err = valid(sr)
+	// if __error_handle(&w, err) {
+	// 	return
+	// }
 
 	//found by name
-	if sr.Id == 0 {
-		e := &ApiError{fmt.Errorf("InvalidRequest : id must be not 0"), http.StatusInternalServerError}
+	if sr.Id == 0 && (sr.Name == "" || sr.Address == "") {
+		e := &ApiError{fmt.Errorf("InvalidRequest -> id or name + address must be not empty"), http.StatusInternalServerError}
 		w.WriteHeader(e.StatusCode)
-		w.Write([]byte(e.Err.Error()))
+		w.Write([]byte(e.Error()))
 		return
 	}
 
@@ -281,6 +281,6 @@ func DeleteSupplierController(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte(err.Error()))
 		return
 	}
-	w.WriteHeader(http.StatusOK)
-	w.Write([]byte(`"status" : "OK"`))
+
+	WriteOkStatus(&w)
 }

@@ -45,6 +45,11 @@ func GetOkJSON(i interface{}) ([]byte, error) {
 	return b, nil
 }
 
+func WriteOkStatus(w *http.ResponseWriter) {
+	(*w).WriteHeader(http.StatusOK)
+	(*w).Write([]byte(`{ "status" : "OK" }`))
+}
+
 func decode(i interface{}, src map[string][]string) error {
 	decoder := schema.NewDecoder()
 	decoder.IgnoreUnknownKeys(true)

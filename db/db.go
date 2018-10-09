@@ -5,6 +5,7 @@ package db
 import (
 	"database/sql"
 	"fmt"
+	"os"
 
 	_ "github.com/lib/pq"
 
@@ -290,11 +291,12 @@ func UpdateSupplier(s *Supplier) bool {
 	checkErr(err)
 	if affect != 1 {
 		log.Error("UpdateSupplier: affect != 1")
-		__panic_text("SUPPLIERS:: ", fmt.Errorf("UpdatePreparation error: we change %d more then 1 or less value ", affect))
+		// __panic_text("SUPPLIERS:: ", fmt.Errorf("UpdatePreparation error: we change %d more then 1 or less value ", affect))
+		log.Warning("UpdateSuppliers: We haven't changed anything preparation: %v")
 		return false
 	}
 
-	log.Info("SUPPLIERS: Deleted one with id", s.Id)
+	log.Info("SUPPLIERS: Update one with id", s.Id)
 	return true
 }
 
@@ -370,11 +372,21 @@ func DeleteSupplier(p *Supplier) int {
 		log.Warning("DeleteSupplier: ", "parametr is <nil>")
 		return 0
 	}
-	// fmt.Println("# Deleting")
-	stmt, err := db.Prepare("delete from suppliers where id=$1")
-	checkErr(err)
+	var stmt *sql.Stmt
+	var err error
+	var res sql.Result
+	if p.Name != "" && p.Address != "" {
+		stmt, err = db.Prepare("delete from suppliers where name=$1 AND address = $2")
+		checkErr(err)
 
-	res, err := stmt.Exec(p.Id)
+		res, err = stmt.Exec(p.Name, p.Address)
+
+	} else {
+		stmt, err = db.Prepare("delete from suppliers where id=$1")
+		checkErr(err)
+
+		res, err = stmt.Exec(p.Id)
+	}
 	if err != nil {
 		__panic_text("DeleteSupplier", fmt.Errorf("DeleteSupplier-Exec error: %v", err))
 		return 0
@@ -383,7 +395,7 @@ func DeleteSupplier(p *Supplier) int {
 	affect, err := res.RowsAffected()
 	checkErr(err)
 
-	log.Infof("SUPLIERS: delete %v with Id=%d in", p.Name, p.Id)
+	log.Infof("SUPLIERS: delete with Id=%d Name=%s Address=%s in", p.Id, p.Name, p.Address)
 	return int(affect)
 }
 
@@ -619,16 +631,16 @@ func init() {
 	log = logrus.WithFields(logrus.Fields{
 		"DB": "postgre",
 	})
-	log.Logger.SetFormatter(&logrus.TextFormatter{FullTimestamp: true})
+	// log.Logger.SetFormatter(&logrus.TextFormatter{FullTimestamp: true})
 	log.Logger.Level = logrus.InfoLevel
 
-	// log.Logger.SetFormatter(&logrus.JSONFormatter{})
-	// lf, err := os.OpenFile("./logs/_db/log.json.log", os.O_APPEND|os.O_WRONLY, os.ModeAppend)
-	// if err != nil {
-	// 	panic(err)
-	// }
-	// //defer lf.Close()
-	// log.Logger.SetOutput(lf)
+	log.Logger.SetFormatter(&logrus.JSONFormatter{})
+	lf, err := os.OpenFile("../logs/_db/log.json.log", os.O_APPEND|os.O_WRONLY, os.ModeAppend)
+	if err != nil {
+		panic(err)
+	}
+	//defer lf.Close()
+	log.Logger.SetOutput(lf)
 }
 
 //I DON'T KNOW HAW TO DO IT NOW

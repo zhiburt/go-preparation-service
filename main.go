@@ -18,6 +18,8 @@ import (
 
 	"github.com/go-yaml/yaml"
 	"github.com/gorilla/mux"
+
+	_ "net/http/pprof"
 )
 
 //URLs

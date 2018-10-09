@@ -12,9 +12,8 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-
 	// _ "uni/coorse/db"
-	_ "github.com/lib/pq"
+	//_ "github.com/lib/pq"
 )
 
 const (
@@ -201,6 +200,177 @@ func TestPreparations(t *testing.T) {
 
 	m.HandleFunc(AllPreparationsURL, AllPreparationsController)
 	m.HandleFunc(AllPreparationsVersion2URL, AllPreparationsController)
+
+	RunTestCheckOnlyStatus(t, m, cases)
+}
+
+func TestSuppliers(t *testing.T) {
+	log.Out = ioutil.Discard
+
+	cases := []*Case{
+		//FindSupplierByIdController
+		&Case{
+			"", FindSupplierByIdURL, "id=1", http.StatusOK, CR{
+				"data": CR{
+					"Id":          1,
+					"Name":        "Microsoft Washington PP",
+					"Company":     "Microsoft",
+					"Address":     "Washington 200B 3c 10.2",
+					"Geolocation": "",
+					"Description": "",
+				},
+			},
+		},
+		//FindSupplierByIdController
+		&Case{
+			"", FindSupplierByIdURL, "id=1000000", http.StatusOK, CR{
+				"data": nil,
+			},
+		},
+		&Case{
+			"", FindSupplierByIdURL, "id=-1", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> Id: -1 does not validate as numeric",
+			},
+		},
+		//InsertPreparationController
+		&Case{
+			"PUT", NewSupplierURL, "name=TEST_NAME&address=TEST_ADDRESS&company=TEST_COMPANY", http.StatusOK, CR{
+				"status": "OK",
+			},
+		},
+		&Case{
+			"PUT", NewSupplierURL, "name=TEST_NAME&address=TEST_ADDRESS&company=TEST_COMPANY", http.StatusInternalServerError, CR{
+				"error": `db: supplier exists in`,
+			},
+		},
+		&Case{
+			"PUT", NewSupplierURL, "", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> Name: non zero value required;Address: non zero value required",
+			},
+		},
+		&Case{
+			"PUT", NewSupplierURL, "name=2323", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> Address: non zero value required",
+			},
+		},
+		//FindSupplierByNameController
+		&Case{
+			"", FindSupplierByAddressAndNameURL, "name=Microsoft%20Washington%20PP&address=Washington%20200B%203c%2010.2", http.StatusOK, CR{
+				"data": CR{
+					"Id":          1,
+					"Name":        "Microsoft Washington PP",
+					"Company":     "Microsoft",
+					"Address":     "Washington 200B 3c 10.2",
+					"Geolocation": "",
+					"Description": "",
+				},
+			},
+		},
+		&Case{
+			"", FindSupplierByAddressAndNameURL, "name=invalid_name_&address=invalid_address_", http.StatusOK, CR{
+				"data": nil,
+			},
+		},
+		&Case{
+			"", FindSupplierByAddressAndNameURL, "", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> Address: non zero value required;Name: non zero value required",
+			},
+		},
+		//FindSuppliersByCompany
+		&Case{
+			"", FindSuppliersByCompanyURL, "company=under_bed", http.StatusOK, CR{
+				"data": []CR{
+					CR{
+						"Id":          8,
+						"Name":        "under_bed",
+						"Company":     "under_bed",
+						"Address":     "under_address_bed",
+						"Geolocation": "under_bed",
+						"Description": "",
+					},
+				},
+			},
+		},
+		&Case{
+			"", FindSuppliersByCompanyURL, "", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> Company: non zero value required",
+			},
+		},
+		&Case{
+			"", FindSuppliersByCompanyURL, "company=invalid_name_company", http.StatusOK, CR{
+				"data": nil,
+			},
+		},
+		//UpdatePreparationController
+		&Case{
+			"POST", UpdateSupplierURL, "id=8&name=under_bed&company=under_bed&address=under_address_bed&geolocation=under_bed", http.StatusOK, CR{
+				"status": "OK",
+			},
+		},
+		&Case{
+			"POST", UpdateSupplierURL, "id=10000&name=valid&company=valid&address=valid", http.StatusInternalServerError, CR{
+				"error": "db: supplier doesn't exists in",
+			},
+		},
+		&Case{
+			"POST", UpdateSupplierURL, "", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> Id: non zero value required;Name: non zero value required;Company: non zero value required;Address: non zero value required",
+			},
+		},
+		&Case{
+			"POST", UpdateSupplierURL, "id=10000000", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> Name: non zero value required;Company: non zero value required;Address: non zero value required",
+			},
+		},
+		//DeletePreparationController
+		&Case{
+			"DELETE", DeleteSupplierURL, "name=TEST_NAME&address=TEST_ADDRESS", http.StatusOK, CR{
+				"status": "OK",
+			},
+		},
+		&Case{
+			"DETELE", DeleteSupplierURL, "id=0", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> id or name + address must be not empty",
+			},
+		},
+		&Case{
+			"DETELE", DeleteSupplierURL, "name=test_name", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> id or name + address must be not empty",
+			},
+		},
+		&Case{
+			"DETELE", DeleteSupplierURL, "address=test_address", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> id or name + address must be not empty",
+			},
+		},
+		&Case{
+			"DELETE", DeleteSupplierURL, "id=100000", http.StatusInternalServerError, CR{
+				"error": "db: supplier doesn't exists in",
+			},
+		},
+	}
+	m := http.NewServeMux()
+	m.HandleFunc(FindSupplierByIdURL, FindSupplierByIdController)
+	m.HandleFunc(FindSupplierByAddressAndNameURL, FindSupplierByNameController)
+	m.HandleFunc(FindSuppliersByCompanyURL, FindSuppliersByCompanyController)
+	m.HandleFunc(NewSupplierURL, InsertSupplierController)
+	m.HandleFunc(DeleteSupplierURL, DeleteSupplierController)
+	m.HandleFunc(UpdateSupplierURL, UpdateSupplierController)
+
+	RunTest(t, m, cases)
+
+	cases = []*Case{
+		//AllSuppliersController
+		&Case{
+			"", AllSuppliersURL, "", http.StatusOK, nil,
+		},
+		&Case{
+			"", AllSuppliersVersion2URL, "", http.StatusOK, nil,
+		},
+	}
+
+	m.HandleFunc(AllSuppliersURL, AllSuppliersController)
+	m.HandleFunc(AllSuppliersVersion2URL, AllSuppliersController)
 
 	RunTestCheckOnlyStatus(t, m, cases)
 }
