@@ -124,13 +124,13 @@ func InsertGoodController(w http.ResponseWriter, r *http.Request) {
 		sr.Price)
 
 	if !b {
-		err := &ApiError{fmt.Errorf("good exists you need to delete an old good "), http.StatusInternalServerError}
+		err := &ApiError{fmt.Errorf("good exists you need to delete an old good"), http.StatusInternalServerError}
 		w.WriteHeader(err.StatusCode)
 		w.Write([]byte(err.Error()))
 		return
 	}
-	w.WriteHeader(http.StatusOK)
-	w.Write([]byte(`"status" : "OK"`))
+
+	WriteOkStatus(&w)
 }
 
 func DeleteGoodController(w http.ResponseWriter, r *http.Request) {
@@ -156,6 +156,6 @@ func DeleteGoodController(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte(err.Error()))
 		return
 	}
-	w.WriteHeader(http.StatusOK)
-	w.Write([]byte(`"status" : "OK"`))
+
+	WriteOkStatus(&w)
 }

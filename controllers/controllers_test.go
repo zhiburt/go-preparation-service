@@ -41,7 +41,7 @@ const (
 	AllGoodsBySupplierURL    = "/goods/suppliers"
 	AllGoodsByPreparationURL = "/goods/preparations"
 	NewGoodURL               = "/goods/new"
-	DeteteGoodURL            = "/goods/delBySupplierete"
+	DeleteGoodURL            = "/goods/delBySupplierete"
 )
 
 var (
@@ -85,6 +85,11 @@ func TestPreparations(t *testing.T) {
 		&Case{
 			"", FindPreparationByIdURL, "id=-1", http.StatusInternalServerError, CR{
 				"error": "InvalidRequest -> Id: -1 does not validate as numeric",
+			},
+		},
+		&Case{
+			"", FindPreparationByIdURL, "&id=some_id", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> schema: error converting value. You need to check your parametrs",
 			},
 		},
 		//FindPreparationByNameController
@@ -157,6 +162,11 @@ func TestPreparations(t *testing.T) {
 				"error": "preparation with name test or id 10000000 doesn't exists in db",
 			},
 		},
+		&Case{
+			"POST", UpdatePreparationURL, "&id=some_id", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> schema: error converting value. You need to check your parametrs",
+			},
+		},
 		//DeletePreparationController
 		&Case{
 			"DELETE", DeletePreparationURL, "name=TEST_PREPARATION_2", http.StatusOK, CR{
@@ -171,6 +181,11 @@ func TestPreparations(t *testing.T) {
 		&Case{
 			"DELETE", DeletePreparationURL, "id=10000", http.StatusInternalServerError, CR{
 				"error": "preparation with name  or id 10000 doesn't exists in db",
+			},
+		},
+		&Case{
+			"DELETE", DeletePreparationURL, "&id=some_id", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> schema: error converting value. You need to check your parametrs",
 			},
 		},
 	}
@@ -230,6 +245,11 @@ func TestSuppliers(t *testing.T) {
 		&Case{
 			"", FindSupplierByIdURL, "id=-1", http.StatusInternalServerError, CR{
 				"error": "InvalidRequest -> Id: -1 does not validate as numeric",
+			},
+		},
+		&Case{
+			"", FindSupplierByIdURL, "&id=some_id", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> schema: error converting value. You need to check your parametrs",
 			},
 		},
 		//InsertPreparationController
@@ -322,6 +342,11 @@ func TestSuppliers(t *testing.T) {
 				"error": "InvalidRequest -> Name: non zero value required;Company: non zero value required;Address: non zero value required",
 			},
 		},
+		&Case{
+			"POST", UpdateSupplierURL, "&id=some_id", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> schema: error converting value. You need to check your parametrs",
+			},
+		},
 		//DeletePreparationController
 		&Case{
 			"DELETE", DeleteSupplierURL, "name=TEST_NAME&address=TEST_ADDRESS", http.StatusOK, CR{
@@ -348,6 +373,11 @@ func TestSuppliers(t *testing.T) {
 				"error": "db: supplier doesn't exists in",
 			},
 		},
+		&Case{
+			"DELETE", DeleteSupplierURL, "&id=some_id", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> schema: error converting value. You need to check your parametrs",
+			},
+		},
 	}
 	m := http.NewServeMux()
 	m.HandleFunc(FindSupplierByIdURL, FindSupplierByIdController)
@@ -371,6 +401,114 @@ func TestSuppliers(t *testing.T) {
 
 	m.HandleFunc(AllSuppliersURL, AllSuppliersController)
 	m.HandleFunc(AllSuppliersVersion2URL, AllSuppliersController)
+
+	RunTestCheckOnlyStatus(t, m, cases)
+}
+
+func TestGoods(t *testing.T) {
+	log = &logrus.Logger{}
+	log.Out = ioutil.Discard
+
+	cases := []*Case{
+		//InsertGoodController
+		&Case{
+			"PUT", NewGoodURL, "preparation_id=1&supplier_id=1&price=12.3432", http.StatusOK, CR{
+				"status": "OK",
+			},
+		},
+		&Case{
+			"PUT", NewGoodURL, "preparation_id=1&supplier_id=1&price=12.3432", http.StatusInternalServerError, CR{
+				"error": "good exists you need to delete an old good",
+			},
+		},
+		&Case{
+			"PUT", NewGoodURL, "", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> PreparationID: non zero value required;SupplierID: non zero value required;Price: non zero value required",
+			},
+		},
+		&Case{
+			"PUT", NewGoodURL, "preparation_id=some_id&supplier_id=some_id", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> schema: error converting value. You need to check your parametrs",
+			},
+		},
+		&Case{
+			"PUT", NewGoodURL, "preparation_id=1&supplier_id=1", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> Price: non zero value required",
+			},
+		},
+		//DeleteGoodController
+		&Case{
+			"DELETE", DeleteGoodURL, "preparation_id=1&supplier_id=1", http.StatusOK, CR{
+				"status": "OK",
+			},
+		},
+		&Case{
+			"DELETE", DeleteGoodURL, "preparation_id=1&supplier_id=100000", http.StatusInternalServerError, CR{
+				"error": "good doesn't exists",
+			},
+		},
+		&Case{
+			"DELETE", DeleteGoodURL, "preparation_id=some_id&supplier_id=some_id", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> schema: error converting value. You need to check your parametrs",
+			},
+		},
+		&Case{
+			"DELETE", DeleteGoodURL, "", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> PreparationID: non zero value required;SupplierID: non zero value required",
+			},
+		},
+		&Case{
+			"DELETE", DeleteGoodURL, "supplier_id=1", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> PreparationID: non zero value required",
+			},
+		},
+	}
+	m := http.NewServeMux()
+	m.HandleFunc(NewGoodURL, InsertGoodController)
+	m.HandleFunc(DeleteGoodURL, DeleteGoodController)
+
+	RunTest(t, m, cases)
+
+	cases = []*Case{
+		//AllGoodsController
+		&Case{
+			"", AllGoodsURL, "", http.StatusOK, nil,
+		},
+		//AllSuppliersGoodsController
+		&Case{
+			"", AllGoodsBySupplierURL, "supplier_id=1", http.StatusOK, nil,
+		},
+		&Case{
+			"", AllGoodsBySupplierURL, "supplier_id=100000", http.StatusOK, nil,
+		},
+		&Case{
+			"", AllGoodsBySupplierURL, "", http.StatusInternalServerError, nil,
+		},
+		&Case{
+			"", AllGoodsBySupplierURL, "&supplier_id=some_id", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> schema: error converting value. You need to check your parametrs",
+			},
+		},
+		//AllSPreparationsGoodsController
+		&Case{
+			"", AllGoodsByPreparationURL, "preparation_id=1", http.StatusOK, nil,
+		},
+		&Case{
+			"", AllGoodsByPreparationURL, "preparation_id=100000", http.StatusOK, nil,
+		},
+		&Case{
+			"", AllGoodsByPreparationURL, "", http.StatusInternalServerError, nil,
+		},
+		&Case{
+			"", AllGoodsByPreparationURL, "&preparation_id=some_id", http.StatusInternalServerError, CR{
+				"error": "InvalidRequest -> schema: error converting value. You need to check your parametrs",
+			},
+		},
+	}
+
+	m.HandleFunc(AllGoodsURL, AllGoodsController)
+	m.HandleFunc(AllGoodsBySupplierURL, AllSuppliersGoodsController)
+	m.HandleFunc(AllGoodsByPreparationURL, AllPreparationsGoodsController)
 
 	RunTestCheckOnlyStatus(t, m, cases)
 }
@@ -411,6 +549,7 @@ func RunTest(t *testing.T, m http.Handler, cases []*Case) {
 		err = json.Unmarshal(body, &result)
 		if err != nil {
 			t.Errorf("[%s] cant unpack json: %v", caseName, err)
+			t.Errorf("[%s] ----- %s", caseName, string(body))
 			continue
 		}
 

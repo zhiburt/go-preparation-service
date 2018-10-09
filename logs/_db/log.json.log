@@ -190,3 +190,958 @@
 {"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T12:14:49+03:00"}
 {"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T12:14:49+03:00"}
 {"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T12:14:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"warning","msg":"supplier  has preparation \"\" (exists in DB)","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:36:12+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:39:37+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:46:51+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:47:06+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:48:16+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:50:53+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:52:09+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:55:16+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:56:20+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:56:55+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T16:57:57+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T16:57:57+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T16:57:57+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T16:57:57+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:57:58+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T16:58:31+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:01:22+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:03:06+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:03:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:14+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:16+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:04:18+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:04:18+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:04:18+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:04:18+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:19+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:20+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:04:21+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:04:21+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:04:21+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:04:21+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:04:21+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:04:21+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:21+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:04:21+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:04:21+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:21+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:04:22+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:04:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:04:22+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:04:22+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:04:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:04:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:04:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:04:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:04:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:04:22+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:04:22+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:04:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:04:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:22+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:23+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:24+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:04:25+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:04:25+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:04:25+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:04:25+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:26+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:27+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:04:28+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:04:28+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:04:28+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:04:28+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:04:28+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:04:28+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:28+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:04:28+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:04:28+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:04:29+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:07:40+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:07:40+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:07:40+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:07:40+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:07:40+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:07:41+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:07:49+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:07:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:07:49+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:07:49+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:07:50+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:07:59+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:08:01+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:08:02+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:08:02+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:08:02+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:08:02+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:08:02+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:08:02+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:08:02+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:08:02+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:08:03+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:13:57+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:13:57+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:13:57+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:13:57+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:13:57+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:13:57+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:13:57+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:13:57+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:13:57+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:13:57+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:13:57+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:13:57+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:13:57+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:13:57+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:13:58+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:13:58+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:13:58+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:13:58+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:13:58+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:13:58+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:13:58+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:13:58+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:13:58+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:13:58+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:13:58+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:13:58+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:13:58+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:13:58+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:14:22+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"warning","msg":"supplier  has preparation \"\" (exists in DB)","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:16:51+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find 10 in","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationById Preparation with ID '\\U000f4240' doesn't exist in DB","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: find Асприн-кардио in","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"FindPreparationByName Preparation with NAME \"invalid_name\" doesn't exist in DB","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: insert TEST_PREPARATION_2 into","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{276 RENAME_PREPARATION    } in","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{1     } in","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS: update \u0026{0 RENAME_PREPARATION new_description   } in","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdatePreparation: We haven't changed anything preparation: %v","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name=TEST_PREPARATION_2 with Id=0 in","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"preparations: delete name= with Id=10000 in","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"PREPARATIONS::AllPreparations: send all preparations","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS::FindSupplierById find by id 1","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"FindSupplierById: Supplier with id 1000000 doesn't exist in DB","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"Name \"TEST_NAME\" exists in DB","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by Microsoft Washington PP and Washington 200B 3c 10.2 in","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Supplier with NAME \"invalid_name_\" and ADDRESS \"invalid_address_\" doesn't exist in DB","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company under_bed in","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: find by company invalid_name_company in","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPPLIERS: Update one with id8","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"error","msg":"UpdateSupplier: affect != 1","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"warning","msg":"UpdateSuppliers: We haven't changed anything preparation: %v","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=0 Name=TEST_NAME Address=TEST_ADDRESS in","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"SUPLIERS: delete with Id=100000 Name= Address= in","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"warning","msg":"supplier  has preparation \"\" (exists in DB)","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:17:30+03:00"}
+{"DB":"postgre","level":"info","msg":"PreparationOfSupplier: delete  with Id=1 in","time":"2018-10-09T17:17:30+03:00"}

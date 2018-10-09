@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"net/http"
 	"os"
+	"strings"
 
 	"github.com/asaskevich/govalidator"
 	"github.com/gorilla/schema"
@@ -19,7 +20,8 @@ type ApiError struct {
 }
 
 func (e *ApiError) Error() string {
-	return fmt.Sprintf(`{ "error" : "%v" }`, e.Err)
+	errText := strings.Replace(e.Err.Error(), "\"", "'", -1)
+	return fmt.Sprintf(`{ "error" : "%v" }`, errText)
 }
 
 func getJson(i interface{}) ([]byte, error) {
@@ -55,7 +57,10 @@ func decode(i interface{}, src map[string][]string) error {
 	decoder.IgnoreUnknownKeys(true)
 	err := decoder.Decode(i, src)
 	if err != nil {
-		e := &ApiError{fmt.Errorf("InvalidRequest -> %v", err), http.StatusInternalServerError}
+		// errText := strings.Replace(e.Err.Error(), "\"", "'", -1)
+		// e := &ApiError{fmt.Errorf("InvalidRequest -> %v", errText), http.StatusInternalServerError}
+
+		e := &ApiError{fmt.Errorf("InvalidRequest -> schema: error converting value. You need to check your parametrs"), http.StatusInternalServerError}
 		log.Warning("decoder error: ", e)
 		return e
 	}
@@ -89,7 +94,8 @@ func __error_handle(w *http.ResponseWriter, err error) bool {
 			(*w).WriteHeader(err.StatusCode)
 			(*w).Write([]byte(err.Error()))
 		} else {
-			(*w).WriteHeader(http.StatusInternalServerError)
+			err = &ApiError{err, http.StatusInternalServerError}
+			(*w).WriteHeader(err.StatusCode)
 			(*w).Write([]byte(err.Error()))
 		}
 		return true
