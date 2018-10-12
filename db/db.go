@@ -55,11 +55,11 @@ type (
 func GetAllPreparations() []*Preparation {
 	// fmt.Println("# Querying")
 	rows, err := db.Query("SELECT * FROM preparations")
-	defer rows.Close()
 	if err != nil {
 		log.Errorf("PREPARATIONS::AllPreparations: %v", err)
 		return nil
 	}
+	defer rows.Close()
 
 	var preparations []*Preparation
 	for rows.Next() {
